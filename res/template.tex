@@ -1,0 +1,170 @@
+\documentclass[a4paper,11pt, notitlepage]{article}
+\usepackage[T1]{fontenc}
+% \usepackage{polski}
+\usepackage[top=15mm, bottom=15mm, left=20mm, right=20mm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage[linesnumbered, algoruled]{algorithm2e}
+\usepackage{pdfpages}
+\usepackage{appendix}
+%opening
+
+%\setlength{\textwidth}{16 cm}
+%\setlength{\textheight}{25 cm}
+%\setlength{\evensidemargin}{-1.5 cm}
+%\setlength{\oddsidemargin}{-0 cm}
+%\setlength{\topmargin}{-1 cm}
+
+\newcommand{\cA}{{\mathcal A}}
+\newcommand{\cO}{{\mathcal O}}
+\newcommand{\cW}{{\mathcal W}}
+\newcommand{\cM}{{\mathcal M}}
+\newcommand{\cE}{{\mathcal E}}
+\newcommand{\cF}{{\mathcal F}}
+\newcommand{\cI}{{\mathcal I}}
+\newcommand{\cD}{{\mathcal D}}
+\newcommand{\cR}{{\mathcal R}}
+\newcommand{\cS}{{\mathcal S}}
+\newcommand{\cB}{{\mathcal{B}}}
+\newcommand{\cC}{{\mathcal{C}}}
+
+\newcommand{\wadapt}{weakly-adaptive}
+\newcommand{\noadapt}{non-adaptive}
+\newcommand{\chainadapt}{$k$-chain-ordered}
+\newcommand{\kthick}{$k$-ordered}
+\newcommand{\sadapt}{strongly-adaptive}
+\newcommand{\ordered}{ordered}
+\newcommand{\oblivious}{oblivious}
+\newcommand{\constrained}{constrained}
+\newcommand{\loa}{linearly-ordered}
+\newcommand{\safba}{strongly-adaptive $f$-bounded}
+\newcommand{\fba}{strongly-adaptive $f$-bounded}
+\newcommand{\walba}{weakly-adaptive linearly-bounded}
+\newcommand{\salba}{strongly-adaptive linearly-bounded}
+\newcommand{\wafba}{weakly-adaptive $f$-bounded}
+\newcommand{\lba}{linearly-bounded}
+\newcommand{\ua}{unbounded}
+\newcommand{\rd}{RD}
+\newcommand{\rounddelay}{round-delay}
+\newcommand{\adapt}{adaptive $f$-bounded}
+\newcommand{\ofba}{ordered $f$-bounded}
+\newcommand{\lofba}{linearly-ordered $f$-bounded}
+\newcommand{\kcofba}{$k$-chain-ordered $f$-bounded}
+\newcommand{\ktofba}{$k$-thick-ordered $f$-bounded}
+\newcommand{\acofba}{anti-chain-ordered $f$-bounded}
+\newcommand{\crdfba}{$c$-round-delay $f$-bounded}
+\newcommand{\nafba}{non-adaptive $f$-bounded}
+
+\newcommand{\DA}{Do-All}
+\newcommand{\CO}{consensus}
+\newcommand{\polylog}{{\mbox{polylog}}}
+
+
+\title{Umowa najmu lokalu mieszkalnego}
+\author{}
+\date{}
+
+\begin{document}
+
+
+
+\maketitle
+
+Zawarta w dniu [15] we Wrocławiu pomiędzy:
+[1], zamieszkały w [2], [3], legitymujący się dowodem osobistym nr [4], PESEL [5], zwanym dalej Wynajmującym, a
+[6], zamieszkały/a w [7], [8] [19] legitymujący/a się dowodem osobistym nr [9], PESEL [10], zwanym dalej Najemcą o następującej treści:
+§ 1.
+    1. Wynajmujący oświadcza, że jest właścicielem lokalu mieszkalnego nr [11] o powierzchni użytkowej [12] m2, położonego 	w: [13], [14].
+§ 2.
+    1. Wynajmujący z dniem [15] oddaje Najemcy w najem pokój w lokalu określonym w § 1 pkt 1 wraz z wyposażeniem z przeznaczeniem na cele mieszkalne.
+ 	
+    2. Wynajmujący przekaże Najemcy klucze do lokalu - jeden komplet w dniu oddania lokalu w najem. 
+§ 3.
+    1. Umowa zostaje zawarta na okres od [15] do [16].
+ 	
+    2. Wynajmujący ma prawo jednostronnego rozwiązania umowy w trybie natychmiastowym, jeżeli Najemca:
+ 	
+        a. pomimo upomnienia nadal używa lokalu w sposób sprzeczny z umową lub niezgodnie z jego przeznaczeniem, lub zaniedbuje obowiązki, dopuszczając do powstania szkód, lub niszczy urządzenia	przeznaczone do wspólnego korzystania przez mieszkańców albo wykracza w sposób rażący lub uporczywy przeciwko porządkowi domowemu, czyniąc uciążliwym korzystanie z innych lokali, 
+ 		
+        b. jest w zwłoce z zapłatą czynszu lub innych opłat za używanie lokalu za jeden pełny okres płatności (to jest jeden miesiąc) 	pomimo uprzedzenia go o zamiarze wypowiedzenia stosunku prawnego i wyznaczenia dodatkowego, terminu do zapłaty zaległych i bieżących należności, 		
+ 		
+        c. wynajął, podnajął albo oddał do bezpłatnego używania lokal lub jego część bez wymaganej zgody właściciela.
+ 	
+    3. Najemca ma prawo jednostronnego rozwiązania umowy w przypadku niemożności używania lokalu, lub istotnego utrudnienia w używaniu lokalu zgodnie z umową, po uprzednim pisemnym zawiadomieniu Wynajmującego.
+
+§ 4.
+    1. Najemca zobowiązany będzie do zapłaty Wynajmującemu czynszu najmu w wysokości:
+[17] złotych miesięcznie od osoby (słownie: [18] złotych).
+    2. Zapłata następować będzie z góry w terminie do 7 dnia każdego 	miesiąca obowiązywania umowy na konto Wynajmującego.
+ 	
+    3. Pierwsza wpłata zostanie dokonana w dniu podpisania umowy.
+ 	
+    4. Strony ustalają kaucję w wysokości jednomiesięcznego czynszu.
+ 	
+    5. W związku z § 4 pkt 4 Najemca zobowiązuje się pokryć ewentualne roszczenia z tytułu zniszczenia lokalu ponad normalne zużycie w trakcie używania. Wysokość roszczeń zostanie ustalona na podstawie faktur lub rachunków powykonawczych usuwających zniszczenia.
+ 	
+    6. Najemca pokrywa koszty eksploatacji lokalu obejmujące:
+ 	
+        a. opłaty za gaz - płatne według wskazań liczników,
+        b. opłaty za centralne ogrzewanie - płatne według wskazań liczników,
+        c. opłaty za energię elektryczną - płatne według wskazań liczników,
+        d. opłaty za wodę - płatne według wskazań liczników,
+ 	
+    7. Należności wymienione w § 4 pkt 6 Najemca będzie płacić 	Wynajmującemu na podstawie faktur lub rachunków wystawionych przez dostawców, w terminie do siedmiu dni roboczych od daty doręczenia przez Wynajmującego Najemcy faktur lub rachunków.
+ 	
+    8. W przypadku zwłoki w płatności czynszu i opłat eksploatacyjnych Najemca jest obowiązany do zapłaty odsetek za zwłokę w ustawowej wysokości oraz odsetek stosowanych przez dostawców mediów.
+§ 5.
+    1. Najemcy nie wolno dokonywać zmiany przeznaczenia lokalu.
+ 	
+    2. Najemcy nie wolno oddawać lokalu w podnajem lub do bezpłatnego używania.
+ 	
+    3. Ewentualne planowane przez najemcę adaptacje lub przebudowa pomieszczeń muszą 	być za każdym razem uzgadniane z Wynajmującym i wymagają jego 	pisemnej zgody.
+ 	
+    4. Najemca może wprowadzić w lokalu ulepszenia tylko za pisemną zgodą Wynajmującego.
+§ 6.
+    1. Remonty o charakterze generalnym obciążają Wynajmującego.
+ 	
+    2. Najemca jest obowiązany do dokonywania na własny koszt konserwacji i napraw niezbędnych do zachowania przedmiotu najmu w stanie niepogorszonym.
+ 	
+    3. Najemca zobowiązany jest poinformować Wynajmującego niezwłocznie o konieczności przeprowadzenia napraw i innych czynności, które zgodnie z obowiązującymi przepisami obciążają Wynajmującego.
+ 	
+    4. Najemca zobowiązany jest poinformować Wynajmującego niezwłocznie o konieczności wymiany wkładki do drzwi wejściowych w przypadku 	zgubienia lub zniszczenia któregokolwiek kompletu kluczy, który Najemca otrzymał w dniu podpisania umowy od Wynajmującego.
+ 	
+    5. Najemca zobowiązany jest udostępnić Wynajmującemu lokal do wglądu.
+§ 7.
+    1. Po ustaniu stosunku najmu Najemca zobowiązany jest niezwłocznie zwrócić przedmiot najmu Wynajmującemu w stanie niepogorszonym.
+ 	
+    2. Najemca nie ponosi odpowiedzialności za zmiany i zniszczenia w 	lokalu powstałe na skutek naturalnego zużycia.
+§ 8.
+Wynajmujący nie odpowiada za szkody wyrządzone ruchomościom Najemcy w wyniku zalania, ognia, włamania i innych zdarzeń losowych.
+§ 9.
+W sprawach nieuregulowanych niniejszą umową zastosowanie mają przepisy Kodeksu cywilnego oraz ustawy o ochronie praw lokatorów.
+§ 10.
+Zmiana niniejszej umowy wymaga formy pisemnej pod rygorem nieważności.
+§ 11.
+Umowę sporządzono w pięciu jednakowo brzmiących egzemplarzach, cztery egzemplarzy dla Najemcy i jeden dla Wynajmującego.
+
+NAJEMCA
+
+
+[6] [20]
+
+
+WYNAJMUJĄCY
+
+
+[1] [21]
+
+
+
+
+\end{document}
+
+
+
