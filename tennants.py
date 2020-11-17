@@ -59,7 +59,7 @@ def generate_lease_agreement(tid, lid, aid, fr, to, rent):
     tennants = pd.DataFrame(get_spreadsheet("Umowa najmu (Odpowiedzi)", key, scope).get_all_records())
     landlords = pd.DataFrame(get_spreadsheet("Wlasciciele", key, scope).get_all_records())
 
-    details = build_details_dict(landlords.iloc[int(lid)], tennants.iloc[int(tid)], apartments.iloc[int(aid)])
+    details = build_details_dict(landlords.iloc[int(lid)], tennants.iloc[int(tid)], apartments.iloc[int(aid)], fr, to, rent)
 
     # print(landlords.iloc[int(lid)])
     # print(tennants.iloc[int(lid)])
@@ -67,25 +67,30 @@ def generate_lease_agreement(tid, lid, aid, fr, to, rent):
 
     prepare_agreement(details)
 
-def build_details_dict(landlord, tennant, apartment):
+def build_details_dict(landlord, tennant, apartment, fr, to, rent):
 
-    details = {"[1]":landlord.loc['Imię i nazwisko'],"[2]": landlord.loc['Ulica i numer domu'],
-            "[3]":landlord.loc['Kod pocztowy']}
+    details = {"[1]":fr,"[2]": landlord.loc['Imię i nazwisko'],
+            "[3]":landlord.loc['Ulica i numer domu'], "[4]":landlord.loc['Kod pocztowy'],
+            "[5]":landlord.loc['Miasto'], "[6]":landlord.loc['Seria i numer dowodu osobistego'],
+            "[7]":str(landlord.loc['Numer PESEL']), "[8]":tennant.loc['Imię i nazwisko'],
+            "[9]":tennant.loc['Ulica i numer domu'], "[10]":tennant.loc['Kod pocztowy'],
+            "[11]":tennant.loc['Miasto'], "[12]":tennant.loc['Seria i numer dowodu osobistego'],
+            "[13]":str(tennant.loc['Numer PESEL']),"[14]":apartment.loc['Ulica i numer domu'],
+            "[15]":str(apartment.loc['Powierzchnia']), "[16]":to,
+            "[17]":str(rent), "[19]":tennant.loc['Adres email'],
+            "[20]":landlord.loc['Adres email'], "[21]":str(tennant.loc['Numer telefonu']),
+            "[22]":str(landlord.loc['Numer telefonu']),
+            "[18]":apartment.loc['Miasto']}
 
     print(details)
 
     return details
 
 def prepare_agreement(details):
-    path = '/home/lagvna/Tennants/res/umowy/imie i nazwisko'
+    path = '/home/lagvna/Tennants/res/umowy/'+details['[8]']
     Path(path).mkdir(parents=True, exist_ok=True)
-    filepath = path+'/imie_i_nazwisko.tex'
-    os.chmod('res/template.tex', 0o777)
+    filepath = path+'/'+details['[8]']+'.tex'
     copyfile('res/template.tex', filepath)
-    os.chmod(filepath, 0o666)
-
-
-    print('jestem tu')
 
     for line in fileinput.input(filepath, inplace=1):
         line = line.rstrip()
@@ -94,9 +99,7 @@ def prepare_agreement(details):
         for f_key, f_value in details.items():
             if f_key in line:
                 line = line.replace(f_key, f_value)
-
-    print('jestem tu 2')
-
+        print(line)
 
 # @cli.command('loadkey', help='Provide path to Google authentication key')
 # @click.option('--dir', required=True, help='Provide path to authentication key')

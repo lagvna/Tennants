@@ -13,57 +13,9 @@
 \usepackage[linesnumbered, algoruled]{algorithm2e}
 \usepackage{pdfpages}
 \usepackage{appendix}
-%opening
 
-%\setlength{\textwidth}{16 cm}
-%\setlength{\textheight}{25 cm}
-%\setlength{\evensidemargin}{-1.5 cm}
-%\setlength{\oddsidemargin}{-0 cm}
-%\setlength{\topmargin}{-1 cm}
-
-\newcommand{\cA}{{\mathcal A}}
-\newcommand{\cO}{{\mathcal O}}
-\newcommand{\cW}{{\mathcal W}}
-\newcommand{\cM}{{\mathcal M}}
-\newcommand{\cE}{{\mathcal E}}
-\newcommand{\cF}{{\mathcal F}}
-\newcommand{\cI}{{\mathcal I}}
-\newcommand{\cD}{{\mathcal D}}
-\newcommand{\cR}{{\mathcal R}}
-\newcommand{\cS}{{\mathcal S}}
-\newcommand{\cB}{{\mathcal{B}}}
-\newcommand{\cC}{{\mathcal{C}}}
-
-\newcommand{\wadapt}{weakly-adaptive}
-\newcommand{\noadapt}{non-adaptive}
-\newcommand{\chainadapt}{$k$-chain-ordered}
-\newcommand{\kthick}{$k$-ordered}
-\newcommand{\sadapt}{strongly-adaptive}
-\newcommand{\ordered}{ordered}
-\newcommand{\oblivious}{oblivious}
-\newcommand{\constrained}{constrained}
-\newcommand{\loa}{linearly-ordered}
-\newcommand{\safba}{strongly-adaptive $f$-bounded}
-\newcommand{\fba}{strongly-adaptive $f$-bounded}
-\newcommand{\walba}{weakly-adaptive linearly-bounded}
-\newcommand{\salba}{strongly-adaptive linearly-bounded}
-\newcommand{\wafba}{weakly-adaptive $f$-bounded}
-\newcommand{\lba}{linearly-bounded}
-\newcommand{\ua}{unbounded}
-\newcommand{\rd}{RD}
-\newcommand{\rounddelay}{round-delay}
-\newcommand{\adapt}{adaptive $f$-bounded}
-\newcommand{\ofba}{ordered $f$-bounded}
-\newcommand{\lofba}{linearly-ordered $f$-bounded}
-\newcommand{\kcofba}{$k$-chain-ordered $f$-bounded}
-\newcommand{\ktofba}{$k$-thick-ordered $f$-bounded}
-\newcommand{\acofba}{anti-chain-ordered $f$-bounded}
-\newcommand{\crdfba}{$c$-round-delay $f$-bounded}
-\newcommand{\nafba}{non-adaptive $f$-bounded}
-
-\newcommand{\DA}{Do-All}
-\newcommand{\CO}{consensus}
-\newcommand{\polylog}{{\mbox{polylog}}}
+\usepackage{sectsty}
+\sectionfont{\centering}
 
 
 \title{Umowa najmu lokalu mieszkalnego}
@@ -76,90 +28,114 @@
 
 \maketitle
 
-Zawarta w dniu [15] we Wrocławiu pomiędzy:
-[1], zamieszkały w [2], [3], legitymujący się dowodem osobistym nr [4], PESEL [5], zwanym dalej Wynajmującym, a
-[6], zamieszkały/a w [7], [8] [19] legitymujący/a się dowodem osobistym nr [9], PESEL [10], zwanym dalej Najemcą o następującej treści:
-§ 1.
-    1. Wynajmujący oświadcza, że jest właścicielem lokalu mieszkalnego nr [11] o powierzchni użytkowej [12] m2, położonego 	w: [13], [14].
-§ 2.
-    1. Wynajmujący z dniem [15] oddaje Najemcy w najem pokój w lokalu określonym w § 1 pkt 1 wraz z wyposażeniem z przeznaczeniem na cele mieszkalne.
- 	
-    2. Wynajmujący przekaże Najemcy klucze do lokalu - jeden komplet w dniu oddania lokalu w najem. 
-§ 3.
-    1. Umowa zostaje zawarta na okres od [15] do [16].
- 	
-    2. Wynajmujący ma prawo jednostronnego rozwiązania umowy w trybie natychmiastowym, jeżeli Najemca:
- 	
-        a. pomimo upomnienia nadal używa lokalu w sposób sprzeczny z umową lub niezgodnie z jego przeznaczeniem, lub zaniedbuje obowiązki, dopuszczając do powstania szkód, lub niszczy urządzenia	przeznaczone do wspólnego korzystania przez mieszkańców albo wykracza w sposób rażący lub uporczywy przeciwko porządkowi domowemu, czyniąc uciążliwym korzystanie z innych lokali, 
- 		
-        b. jest w zwłoce z zapłatą czynszu lub innych opłat za używanie lokalu za jeden pełny okres płatności (to jest jeden miesiąc) 	pomimo uprzedzenia go o zamiarze wypowiedzenia stosunku prawnego i wyznaczenia dodatkowego, terminu do zapłaty zaległych i bieżących należności, 		
- 		
-        c. wynajął, podnajął albo oddał do bezpłatnego używania lokal lub jego część bez wymaganej zgody właściciela.
- 	
-    3. Najemca ma prawo jednostronnego rozwiązania umowy w przypadku niemożności używania lokalu, lub istotnego utrudnienia w używaniu lokalu zgodnie z umową, po uprzednim pisemnym zawiadomieniu Wynajmującego.
+Zawarta w dniu [1] we Wrocławiu pomiędzy:
+[2], zamieszkały w [3], [4] [5] legitymujący się dowodem osobistym nr [6], PESEL [7], zwanym dalej \textit{Wynajmującym}, a
+[8], zamieszkały/a w [9], [10] [11] legitymujący/a się dowodem osobistym nr [12], PESEL [13], zwanym dalej \textit{Najemcą} o następującej treści:
+\section*{§ 1.}
+    \begin{enumerate}
+        \item Wynajmujący oświadcza, że jest właścicielem lokalu mieszkalnego [14] o powierzchni użytkowej [15] m2, położonego w: [18].
+    \end{enumerate}
 
-§ 4.
-    1. Najemca zobowiązany będzie do zapłaty Wynajmującemu czynszu najmu w wysokości:
-[17] złotych miesięcznie od osoby (słownie: [18] złotych).
-    2. Zapłata następować będzie z góry w terminie do 7 dnia każdego 	miesiąca obowiązywania umowy na konto Wynajmującego.
+\section*{§ 2.}
+    \begin{enumerate}
+     \item Wynajmujący z dniem [1] oddaje Najemcy w najem pokój w lokalu określonym w § 1 pkt 1 wraz z wyposażeniem z przeznaczeniem na cele mieszkalne.
  	
-    3. Pierwsza wpłata zostanie dokonana w dniu podpisania umowy.
+    \item Wynajmujący przekaże Najemcy klucze do lokalu - jeden komplet w dniu oddania lokalu w najem. 
+    \end{enumerate}
+
+\section*{§ 3.}
+    \begin{enumerate}
+     \item Umowa zostaje zawarta na okres od [1] do [16].
  	
-    4. Strony ustalają kaucję w wysokości jednomiesięcznego czynszu.
+     \item Wynajmujący ma prawo jednostronnego rozwiązania umowy w trybie natychmiastowym, jeżeli Najemca:
  	
-    5. W związku z § 4 pkt 4 Najemca zobowiązuje się pokryć ewentualne roszczenia z tytułu zniszczenia lokalu ponad normalne zużycie w trakcie używania. Wysokość roszczeń zostanie ustalona na podstawie faktur lub rachunków powykonawczych usuwających zniszczenia.
+        \subitem a) pomimo upomnienia nadal używa lokalu w sposób sprzeczny z umową lub niezgodnie z jego przeznaczeniem, lub zaniedbuje obowiązki, dopuszczając do powstania szkód, lub niszczy urządzenia	przeznaczone do wspólnego korzystania przez mieszkańców albo wykracza w sposób rażący lub uporczywy przeciwko porządkowi domowemu, czyniąc uciążliwym korzystanie z innych lokali, 
+ 		
+        \subitem b) jest w zwłoce z zapłatą czynszu lub innych opłat za używanie lokalu za jeden pełny okres płatności (to jest jeden miesiąc) 	pomimo uprzedzenia go o zamiarze wypowiedzenia stosunku prawnego i wyznaczenia dodatkowego, terminu do zapłaty zaległych i bieżących należności, 		
+ 		
+        \subitem c) wynajął, podnajął albo oddał do bezpłatnego używania lokal lub jego część bez wymaganej zgody właściciela.
  	
-    6. Najemca pokrywa koszty eksploatacji lokalu obejmujące:
+        \item Najemca ma prawo jednostronnego rozwiązania umowy w przypadku niemożności używania lokalu, lub istotnego utrudnienia w używaniu lokalu zgodnie z umową, po uprzednim pisemnym zawiadomieniu Wynajmującego.
+    \end{enumerate}
+
+
+\section*{§ 4.}
+    \begin{enumerate}
+        \item Najemca zobowiązany będzie do zapłaty Wynajmującemu czynszu najmu w wysokości:
+[17] złotych miesięcznie.
+        \item Zapłata następować będzie z góry w terminie do 7 dnia każdego miesiąca obowiązywania umowy na konto Wynajmującego.
  	
-        a. opłaty za gaz - płatne według wskazań liczników,
-        b. opłaty za centralne ogrzewanie - płatne według wskazań liczników,
-        c. opłaty za energię elektryczną - płatne według wskazań liczników,
-        d. opłaty za wodę - płatne według wskazań liczników,
+        \item Pierwsza wpłata zostanie dokonana w dniu podpisania umowy.
  	
-    7. Należności wymienione w § 4 pkt 6 Najemca będzie płacić 	Wynajmującemu na podstawie faktur lub rachunków wystawionych przez dostawców, w terminie do siedmiu dni roboczych od daty doręczenia przez Wynajmującego Najemcy faktur lub rachunków.
+        \item Strony ustalają kaucję w wysokości jednomiesięcznego czynszu.
  	
-    8. W przypadku zwłoki w płatności czynszu i opłat eksploatacyjnych Najemca jest obowiązany do zapłaty odsetek za zwłokę w ustawowej wysokości oraz odsetek stosowanych przez dostawców mediów.
-§ 5.
-    1. Najemcy nie wolno dokonywać zmiany przeznaczenia lokalu.
+        \item W związku z § 4 pkt 4 Najemca zobowiązuje się pokryć ewentualne roszczenia z tytułu zniszczenia lokalu ponad normalne zużycie w trakcie używania. Wysokość roszczeń zostanie ustalona na podstawie faktur lub rachunków powykonawczych usuwających zniszczenia.
+ 	    \item Najemca pokrywa koszty eksploatacji lokalu obejmujące:
+            \subitem a) opłaty za gaz - płatne według wskazań liczników,
+            \subitem b) opłaty za centralne ogrzewanie - płatne według wskazań liczników,
+            \subitem c) opłaty za energię elektryczną - płatne według wskazań liczników,
+            \subitem d) opłaty za wodę - płatne według wskazań liczników,
  	
-    2. Najemcy nie wolno oddawać lokalu w podnajem lub do bezpłatnego używania.
+        \item Należności wymienione w § 4 pkt 6 Najemca będzie płacić 	Wynajmującemu na podstawie faktur lub rachunków wystawionych przez dostawców, w terminie do siedmiu dni roboczych od daty doręczenia przez Wynajmującego Najemcy faktur lub rachunków.
  	
-    3. Ewentualne planowane przez najemcę adaptacje lub przebudowa pomieszczeń muszą 	być za każdym razem uzgadniane z Wynajmującym i wymagają jego 	pisemnej zgody.
+        \item W przypadku zwłoki w płatności czynszu i opłat eksploatacyjnych Najemca jest obowiązany do zapłaty odsetek za zwłokę w ustawowej wysokości oraz odsetek stosowanych przez dostawców mediów.
+    \end{enumerate}
+
+    
+\section*{§ 5.}
+    \begin{enumerate}
+        \item Najemcy nie wolno dokonywać zmiany przeznaczenia lokalu.
  	
-    4. Najemca może wprowadzić w lokalu ulepszenia tylko za pisemną zgodą Wynajmującego.
-§ 6.
-    1. Remonty o charakterze generalnym obciążają Wynajmującego.
+        \item Najemcy nie wolno oddawać lokalu w podnajem lub do bezpłatnego używania.
  	
-    2. Najemca jest obowiązany do dokonywania na własny koszt konserwacji i napraw niezbędnych do zachowania przedmiotu najmu w stanie niepogorszonym.
+        \item Ewentualne planowane przez najemcę adaptacje lub przebudowa pomieszczeń muszą 	być za każdym razem uzgadniane z Wynajmującym i wymagają jego 	pisemnej zgody.
  	
-    3. Najemca zobowiązany jest poinformować Wynajmującego niezwłocznie o konieczności przeprowadzenia napraw i innych czynności, które zgodnie z obowiązującymi przepisami obciążają Wynajmującego.
+        \item Najemca może wprowadzić w lokalu ulepszenia tylko za pisemną zgodą Wynajmującego.
+    \end{enumerate}
+
+    
+\section*{§ 6.}
+    \begin{enumerate}
+        \item 1. Remonty o charakterze generalnym obciążają Wynajmującego.
  	
-    4. Najemca zobowiązany jest poinformować Wynajmującego niezwłocznie o konieczności wymiany wkładki do drzwi wejściowych w przypadku 	zgubienia lub zniszczenia któregokolwiek kompletu kluczy, który Najemca otrzymał w dniu podpisania umowy od Wynajmującego.
+        \item Najemca jest obowiązany do dokonywania na własny koszt konserwacji i napraw niezbędnych do zachowania przedmiotu najmu w stanie niepogorszonym.
  	
-    5. Najemca zobowiązany jest udostępnić Wynajmującemu lokal do wglądu.
-§ 7.
-    1. Po ustaniu stosunku najmu Najemca zobowiązany jest niezwłocznie zwrócić przedmiot najmu Wynajmującemu w stanie niepogorszonym.
+        \item Najemca zobowiązany jest poinformować Wynajmującego niezwłocznie o konieczności przeprowadzenia napraw i innych czynności, które zgodnie z obowiązującymi przepisami obciążają Wynajmującego.
  	
-    2. Najemca nie ponosi odpowiedzialności za zmiany i zniszczenia w 	lokalu powstałe na skutek naturalnego zużycia.
-§ 8.
+        \item Najemca zobowiązany jest poinformować Wynajmującego niezwłocznie o konieczności wymiany wkładki do drzwi wejściowych w przypadku 	zgubienia lub zniszczenia któregokolwiek kompletu kluczy, który Najemca otrzymał w dniu podpisania umowy od Wynajmującego.
+ 	
+        \item Najemca zobowiązany jest udostępnić Wynajmującemu lokal do wglądu.
+\end{enumerate}
+
+    
+\section*{§ 7.}
+    \begin{enumerate}
+        \item Po ustaniu stosunku najmu Najemca zobowiązany jest niezwłocznie zwrócić przedmiot najmu Wynajmującemu w stanie niepogorszonym.
+ 	
+        \item Najemca nie ponosi odpowiedzialności za zmiany i zniszczenia w 	lokalu powstałe na skutek naturalnego zużycia.
+    \end{enumerate}
+
+   
+\section*{§ 8.}
 Wynajmujący nie odpowiada za szkody wyrządzone ruchomościom Najemcy w wyniku zalania, ognia, włamania i innych zdarzeń losowych.
-§ 9.
+\section*{§ 9.}
 W sprawach nieuregulowanych niniejszą umową zastosowanie mają przepisy Kodeksu cywilnego oraz ustawy o ochronie praw lokatorów.
-§ 10.
+\section*{§ 10.}
 Zmiana niniejszej umowy wymaga formy pisemnej pod rygorem nieważności.
-§ 11.
+\section*{§ 11.}
 Umowę sporządzono w pięciu jednakowo brzmiących egzemplarzach, cztery egzemplarzy dla Najemcy i jeden dla Wynajmującego.
 
-NAJEMCA
+\newline
+\vspace{40pt}
+\Large{\textbf{Najemca}} \\
 
+[8], [19], [21]
 
-[6] [20]
+\newline
+\vspace{60pt}
+\Large{\textbf{Wynajmujący}}\\
 
-
-WYNAJMUJĄCY
-
-
-[1] [21]
+[2], [20], [22]
 
 
 
