@@ -9,6 +9,11 @@ from pathlib import Path
 import fileinput
 from gsshandler import get_spreadsheet
 
+import mechanize
+import http.cookiejar
+from bs4 import BeautifulSoup
+import html2text
+
 key = '/home/lagvna/client_secret.json'
 scope = ['https://www.googleapis.com/auth/drive']
 
@@ -18,7 +23,7 @@ def cli(quiet):
     """
     tennaants is a command line program which facilitates the management of renting apartments.
     It allows to manage tennants, apartments, generate lease agreements and calculate bills
-    for the current period. It operates on documents held on Google Drive.
+    from SM Piast Wroclaw, Tauron and PGNiG. It operates on documents held on Google Drive.
     """
     if quiet:
         logging.basicConfig(stream=sys.stdout, level=logging.ERROR)
@@ -41,9 +46,9 @@ def list_all_apartments():
     print(data)
 
 @cli.command('genbil', help='Generate bills for the current period for a particular tennant')
-@click.option('--tid', required=True, help='Tennant ID')
-@click.option('--month', required=True, help='For which month bills should be generated')
-@click.option('--year', required=True, help='For which year bills should be generated')
+# @click.option('--tid', required=True, help='Tennant ID')
+# @click.option('--month', required=True, help='For which month bills should be generated')
+# @click.option('--year', required=True, help='For which year bills should be generated')
 def generate_bills():
     pass
 
