@@ -72,6 +72,9 @@ def generate_lease_agreement(tid, lid, aid, fr, to, rent):
 
     prepare_agreement(details)
 
+    
+
+
 def build_details_dict(landlord, tennant, apartment, fr, to, rent):
 
     details = {"[1]":fr,"[2]": landlord.loc['Imię i nazwisko'],
@@ -92,9 +95,10 @@ def build_details_dict(landlord, tennant, apartment, fr, to, rent):
     return details
 
 def prepare_agreement(details):
-    path = '/home/lagvna/Tennants/res/umowy/'+details['[8]']
+    path = '/home/lagvna/Tennants/res/umowy/'+details['[8]'].replace(" ", "_")
     Path(path).mkdir(parents=True, exist_ok=True)
-    filepath = path+'/'+details['[8]']+'.tex'
+    filepath = path+'/'+details['[8]'].replace(" ", "_")+'.tex'
+    #filepath = filepath.replace(" ", "_")
     copyfile('res/template.tex', filepath)
 
     for line in fileinput.input(filepath, inplace=1):
@@ -105,6 +109,9 @@ def prepare_agreement(details):
             if f_key in line:
                 line = line.replace(f_key, f_value)
         print(line)
+
+    fileinput.close()
+    os.system("pdflatex -output-directory="+path+" "+filepath)
 
 # @cli.command('loadkey', help='Provide path to Google authentication key')
 # @click.option('--dir', required=True, help='Provide path to authentication key')

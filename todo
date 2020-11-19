@@ -3,7 +3,7 @@ TODO
 1. Hasla w jakims osobnym pliku configowym na zewnatrz repozytorium [configparser]
 2. Ogolny config? Zeby podawac strony i szczegoly z jednego miejsca.
 2. Scraping pgnig
-3. Scraping tauron
+DONE 3. Scraping tauron
 4. Tworzenie arkusza z oplatami
 5. Wysylanie maili?
 6. GUI?
