@@ -9,14 +9,17 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.ui import Select
+from selenium.webdriver.common.keys import Keys
+import time
 
 
-def scrape_smpiast(months, years):
+def scrape_smpiast(config_parser, months, years):
     # login to smpiast webpage
-    url = "https://www.smpiast.com.pl/#TB_inline?width=330&height=205&inlineId=tb_wrapper"
+    url = config_parser.get('smpiast9', 'url')
     go(url)
-    fv("2", "username", "xxx")
-    fv("2", "password", "xxx")
+    fv("2", "username", config_parser.get('smpiast9', 'login'))
+    fv("2", "password", config_parser.get('smpiast9', 'password'))
     submit()
 
     cost_keys = []
@@ -61,18 +64,8 @@ def scrape_smpiast(months, years):
 
 #get_smpiast_costs([1,2,3], [2019, 2020])
 
-def get_smpiast_costs(months, years):
-    scrape_smpiast()
-
-def get_pgnig_costs(months, years):
-    scrape_pgnig()
-
-def get_tauron_costs(months, years):
-
-    scrape_tauron()
-
-def scrape_tauron():
-    download_dir = "/home/lagvna/Tennants"
+def scrape_tauron(config_parser):
+    download_dir = config_parser.get('folders', 'download_dir')
 
     options = Options()
     options.headless = True
@@ -84,15 +77,15 @@ def scrape_tauron():
     profile.set_preference('browser.helperApps.neverAsk.saveToDisk', 'text/csv')
 
     driver = webdriver.Firefox(firefox_profile = profile, options = options)
-    driver.get("https://logowanie.tauron.pl")
+    driver.get(config_parser.get('tauron9', 'url'))
 
     username = driver.find_element_by_id("username1")
     username.clear()
-    username.send_keys("xxx")
+    username.send_keys(config_parser.get('tauron9', 'login'))
 
     password = driver.find_element_by_id("password1")
     password.clear()
-    password.send_keys("xxx")
+    password.send_keys(config_parser.get('tauron9', 'password'))
 
     driver.find_element_by_xpath("//a[@title='Zaloguj się']").click()
     
@@ -132,36 +125,95 @@ def scrape_tauron():
     driver.quit()
     print("File saved successfully")
 
-def scrape_pgnig():
-    download_dir = "/home/lagvna/Tennants"
-
+def scrape_pgnig(config_parser):
+    download_dir = config_parser.get('folders', 'download_dir')
+    # run browser silently
     options = Options()
+    options.headless = True
+
+    foptions = webdriver.FirefoxOptions()
+    # these options decline to share location
+    # foptions.set_preference("geo.prompt.testing", True)
+    # foptions.set_preference("geo.prompt.testing.allow", False)
+    # foptions.set_preference('dom.push.enabled', False)
     #options.headless = True
 
     profile = webdriver.FirefoxProfile()
+    profile.set_preference("dom.webnotifications.enabled", False);
     profile.set_preference('browser.download.folderList', 2) # custom location
     profile.set_preference('browser.download.manager.showWhenStarting', False)
     profile.set_preference('browser.download.dir', download_dir)
     profile.set_preference('browser.helperApps.neverAsk.saveToDisk', 'text/csv')
 
-    driver = webdriver.Firefox(firefox_profile = profile, options = options)
-    driver.get("https://ebok.pgnig.pl")
-    wait = WebDriverWait(driver, 60)
+    driver = webdriver.Firefox(firefox_profile = profile, options = options, firefox_options = foptions)
+    driver.get(config_parser.get('pgnig', 'url'))
+    wait = WebDriverWait(driver, 10)
 
 
 
-    page1 = wait.until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[1]/div/div/div[4]/div/div/div[2]/div/div[1]/div/form/div/div/div/label[1]/input')))
-    login = driver.find_element_by_xpath('/html/body/div[1]/div/div/div[4]/div/div/div[2]/div/div[1]/div/form/div/div/div/label[1]/input')
-    password = driver.find_element_by_xpath('/html/body/div[1]/div/div/div[4]/div/div/div[2]/div/div[1]/div/form/div/div/div/label[2]/div[2]/input')
+    page1 = wait.until(EC.visibility_of_element_located((By.XPATH,
+     '/html/body/div[1]/div/div/div[4]/div/div/div[2]/div/div[1]/div/form/div/div/div/label[1]/input')))
+    login = driver.find_element_by_xpath(
+        '/html/body/div[1]/div/div/div[4]/div/div/div[2]/div/div[1]/div/form/div/div/div/label[1]/input')
+    password = driver.find_element_by_xpath(
+        '/html/body/div[1]/div/div/div[4]/div/div/div[2]/div/div[1]/div/form/div/div/div/label[2]/div[2]/input')
 
-    login.send_keys("xxx")
-    password.send_keys("xxx")
-
-    driver.find_element_by_xpath('/html/body/div[1]/div/div/div[4]/div/div/div[2]/div/div[1]/div/form/div/div/div/button').click()
+    login.send_keys(config_parser.get('pgnig', 'login'))
+    password.send_keys(config_parser.get('pgnig', 'password'))
 
 
-    # driver.get("http://www.example.com")
-    # with open('page.html', 'w') as f:
-    #     f.write(driver.page_source)
+    driver.find_element_by_xpath(
+        '/html/body/div[1]/div/div/div[4]/div/div/div[2]/div/div[1]/div/form/div/div/div/button').click()
 
-scrape_tauron()
+    page2 = wait.until(EC.visibility_of_element_located((By.XPATH, 
+        '/html/body/div[1]/div/div/nav/div[3]/div[2]/div/div[2]/div/div[2]/ul/li[1]/a'))).click()
+
+    page3 = wait.until(EC.visibility_of_element_located((By.XPATH, 
+        '/html/body/div[1]/div/div/div[4]/div/div[1]/div[3]/div/div/div[1]/div[1]/div')))
+
+    page5 = wait.until(EC.visibility_of_element_located((By.XPATH, 
+        '/html/body/div[1]/div/div/span/div[1]/div/div/button/i'))).click()
+    
+    element = driver.find_element_by_css_selector('.animationIn .css-1wa3eu0-placeholder')
+    time.sleep(1)
+    element.click()
+
+    #once - third option
+    actions = ActionChains(driver)
+    actions.send_keys(Keys.DOWN)
+    actions.perform()
+    #twice - second option
+    # time.sleep(1)
+    # actions.send_keys(Keys.DOWN)
+    # actions.perform()
+    # #three times - second option
+    # time.sleep(1)
+    # actions.send_keys(Keys.DOWN)
+    # actions.perform()
+    # time.sleep(1)
+    # actions.send_keys(Keys.DOWN)
+    # actions.perform()
+    # time.sleep(1)
+    # actions.send_keys(Keys.DOWN)
+    # actions.perform()
+    # # six times - fourth option
+    # time.sleep(1)
+    # actions.send_keys(Keys.DOWN)
+    # actions.perform()
+    actions.send_keys(Keys.ENTER)
+    actions.perform()
+
+    with open(config_parser.get('folders', 'download_dir') + '/pgnig.html', 'w') as f:
+        f.write(driver.page_source)
+
+    driver.implicitly_wait(30)
+    driver.quit()
+
+def get_smpiast_costs(config_parser, months, years):
+    scrape_smpiast(config_parser, months, years)
+
+def get_pgnig_costs(config_parser):
+    scrape_pgnig(config_parser)
+
+def get_tauron_costs(config_parser):
+    scrape_tauron(config_parser)

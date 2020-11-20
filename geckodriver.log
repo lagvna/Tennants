@@ -963,3 +963,1081 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1605863020055	geckodriver	INFO	Listening on 127.0.0.1:35675
+1605863021065	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWwFPC9"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605863022782	Marionette	INFO	Listening on port 43791
+1605863022891	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1605863033443	geckodriver	INFO	Listening on 127.0.0.1:40471
+1605863033450	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKCtF7h"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605863035338	Marionette	INFO	Listening on port 43579
+1605863035376	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605863066036	Marionette	INFO	Stopped listening on port 43579
+1605863067539	geckodriver	INFO	Listening on 127.0.0.1:47463
+1605863067546	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX8e9vX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605863069333	Marionette	INFO	Listening on port 41655
+1605863069369	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605863471840	Marionette	INFO	Stopped listening on port 41655
+1605863473706	geckodriver	INFO	Listening on 127.0.0.1:48683
+1605863473717	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDioMz9"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605863475624	Marionette	INFO	Listening on port 45115
+1605863475747	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605863522921	Marionette	INFO	Stopped listening on port 45115
+1605863523990	geckodriver	INFO	Listening on 127.0.0.1:57751
+1605863524000	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUsRFiq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605863525917	Marionette	INFO	Listening on port 43547
+1605863526031	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605863532601	Marionette	INFO	Stopped listening on port 43547
+1605863543272	geckodriver	INFO	Listening on 127.0.0.1:37673
+1605863543282	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4vLnzG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605863545228	Marionette	INFO	Listening on port 42551
+1605863545310	Marionette	WARN	TLS certificate errors will be ignored for this session
+Handler function _httpStopRequest threw an exception: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsITraceableChannel.setNewListener]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _setupResponseListener :: line 1085"  data: no]
+Stack: _setupResponseListener@resource://devtools/server/actors/network-monitor/network-observer.js:1085:38
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:911:12
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:409:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1085, column: 0
+console.error: ({})
+1605864103914	geckodriver	INFO	Listening on 127.0.0.1:51937
+1605864103924	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledYYNJS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605864105870	Marionette	INFO	Listening on port 40477
+1605864105949	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605864111681	Marionette	INFO	Stopped listening on port 42551
+1605864146320	Marionette	INFO	Stopped listening on port 40477
+1605864148357	geckodriver	INFO	Listening on 127.0.0.1:36781
+1605864148367	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVcwgvv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605864150191	Marionette	INFO	Listening on port 46241
+1605864150297	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605864282005	Marionette	INFO	Stopped listening on port 46241
+1605864283329	geckodriver	INFO	Listening on 127.0.0.1:48217
+1605864283340	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelwrMPE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605864285376	Marionette	INFO	Listening on port 45273
+1605864285463	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1605864320672	geckodriver	INFO	Listening on 127.0.0.1:33721
+1605864320683	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7sJIgC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605864322626	Marionette	INFO	Listening on port 43757
+1605864322705	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605864394085	Marionette	INFO	Stopped listening on port 43757
+1605864395536	geckodriver	INFO	Listening on 127.0.0.1:47323
+1605864395547	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegp2dnC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605864397517	Marionette	INFO	Listening on port 39663
+1605864397578	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605864509556	geckodriver	INFO	Listening on 127.0.0.1:59593
+1605864509567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCEMNgr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605864511493	Marionette	INFO	Listening on port 40437
+1605864511590	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605864519698	Marionette	INFO	Stopped listening on port 39663
+1605864593782	geckodriver	INFO	Listening on 127.0.0.1:53119
+1605864593793	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4ovzOp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605864595758	Marionette	INFO	Listening on port 40979
+1605864595824	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-media-prod-cdn.itsre-sumo.mozilla.net/static/build/wiki-min.5b7d955e1e18.js, line 1: TypeError: document.location is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605864650045	Marionette	INFO	Stopped listening on port 40979
+1605864748275	geckodriver	INFO	Listening on 127.0.0.1:35921
+1605864748285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSHr3Da"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605864750235	Marionette	INFO	Listening on port 44275
+1605864750321	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605864793516	Marionette	INFO	Stopped listening on port 44275
+1605864794648	geckodriver	INFO	Listening on 127.0.0.1:43021
+1605864794653	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexB8MEp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605864796530	Marionette	INFO	Listening on port 41395
+1605864796593	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605864937586	geckodriver	INFO	Listening on 127.0.0.1:56479
+1605864937595	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLt7fvj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605864939434	Marionette	INFO	Listening on port 35583
+1605864939525	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605865037127	geckodriver	INFO	Listening on 127.0.0.1:32799
+1605865037137	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMGN75v"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605865038961	Marionette	INFO	Listening on port 46847
+1605865039063	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605865079865	geckodriver	INFO	Listening on 127.0.0.1:43635
+1605865079875	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFCHlzD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605865081832	Marionette	INFO	Listening on port 43979
+1605865081908	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605865085637	Marionette	INFO	Stopped listening on port 43979
+1605865087243	Marionette	INFO	Stopped listening on port 46847
+1605865090124	Marionette	INFO	Stopped listening on port 35583
+1605865091612	Marionette	INFO	Stopped listening on port 41395
+1605865101797	geckodriver	INFO	Listening on 127.0.0.1:55875
+1605865101807	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRlUQYO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605865103690	Marionette	INFO	Listening on port 41037
+1605865103735	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605865159160	geckodriver	INFO	Listening on 127.0.0.1:47399
+1605865159170	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiPDHZ9"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605865161132	Marionette	INFO	Listening on port 43311
+1605865161196	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605865164023	Marionette	INFO	Stopped listening on port 41037
+1605865209218	Marionette	INFO	Stopped listening on port 43311
+1605865210451	geckodriver	INFO	Listening on 127.0.0.1:46781
+1605865210458	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2j4xu2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605865212400	Marionette	INFO	Listening on port 44663
+1605865212498	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605865298201	geckodriver	INFO	Listening on 127.0.0.1:38219
+1605865298212	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8AXqTk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605865300129	Marionette	INFO	Listening on port 32937
+1605865300238	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605865302453	Marionette	INFO	Stopped listening on port 44663
+1605865583996	Marionette	INFO	Stopped listening on port 32937
+1605865585410	geckodriver	INFO	Listening on 127.0.0.1:40227
+1605865585420	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVUFs1K"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605865587340	Marionette	INFO	Listening on port 32787
+1605865587450	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605865620246	geckodriver	INFO	Listening on 127.0.0.1:36291
+1605865620253	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2YJLbp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605865622136	Marionette	INFO	Listening on port 39111
+1605865622177	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605865674213	geckodriver	INFO	Listening on 127.0.0.1:35769
+1605865674224	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefkxnzZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605865676105	Marionette	INFO	Listening on port 37911
+1605865676161	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605865992497	Marionette	INFO	Stopped listening on port 37911
+1605865993391	Marionette	INFO	Stopped listening on port 39111
+1605865994431	Marionette	INFO	Stopped listening on port 32787
+1605865995702	geckodriver	INFO	Listening on 127.0.0.1:59613
+1605865995712	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilea3IF7c"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605865997626	Marionette	INFO	Listening on port 33211
+1605865997737	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605866152789	Marionette	INFO	Stopped listening on port 33211
+1605866154545	geckodriver	INFO	Listening on 127.0.0.1:34567
+1605866154556	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekaNBHP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605866156498	Marionette	INFO	Listening on port 42537
+1605866156594	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605866176508	Marionette	INFO	Stopped listening on port 42537
+1605866177988	geckodriver	INFO	Listening on 127.0.0.1:59033
+1605866177997	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWnRtvK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605866179946	Marionette	INFO	Listening on port 46323
+1605866180040	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605866324376	Marionette	INFO	Stopped listening on port 46323
+1605866325659	geckodriver	INFO	Listening on 127.0.0.1:39207
+1605866325669	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5gCAS1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605866327484	Marionette	INFO	Listening on port 37857
+1605866327604	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605866445752	geckodriver	INFO	Listening on 127.0.0.1:33559
+1605866445762	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2z0tRG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605866447726	Marionette	INFO	Listening on port 40777
+1605866447786	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605866452044	Marionette	INFO	Stopped listening on port 37857
+1605866831898	geckodriver	INFO	Listening on 127.0.0.1:48901
+1605866831908	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile27P4vo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605866833815	Marionette	INFO	Listening on port 36767
+1605866833943	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605866873468	geckodriver	INFO	Listening on 127.0.0.1:47821
+1605866873479	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2851de"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605866875397	Marionette	INFO	Listening on port 34405
+1605866875503	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605867062491	geckodriver	INFO	Listening on 127.0.0.1:56075
+1605867062501	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekvjALs"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605867064295	Marionette	INFO	Listening on port 34019
+1605867064340	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605867067388	Marionette	INFO	Stopped listening on port 34405
+1605867068854	Marionette	INFO	Stopped listening on port 36767
+1605867128451	geckodriver	INFO	Listening on 127.0.0.1:53207
+1605867128462	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6m1S8F"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605867130364	Marionette	INFO	Listening on port 43895
+1605867130389	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605867152573	geckodriver	INFO	Listening on 127.0.0.1:43485
+1605867152583	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWAkUcX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605867154419	Marionette	INFO	Listening on port 37567
+1605867154515	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605867158034	Marionette	INFO	Stopped listening on port 43895
+1605867269867	geckodriver	INFO	Listening on 127.0.0.1:45449
+1605867269877	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0BOMIL"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605867271821	Marionette	INFO	Listening on port 34913
+1605867271904	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605867275771	Marionette	INFO	Stopped listening on port 37567
+1605867308707	geckodriver	INFO	Listening on 127.0.0.1:36499
+1605867308713	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLe4ppP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605867310735	Marionette	INFO	Listening on port 36771
+1605867310839	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605867437766	geckodriver	INFO	Listening on 127.0.0.1:59479
+1605867437776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRhKHRG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605867439738	Marionette	INFO	Listening on port 44981
+1605867439804	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605867573799	geckodriver	INFO	Listening on 127.0.0.1:38205
+1605867573806	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejcAPP7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605867575647	Marionette	INFO	Listening on port 36981
+1605867575739	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605867852888	Marionette	INFO	Stopped listening on port 36981
+1605867854438	Marionette	INFO	Stopped listening on port 44981
+1605867855997	Marionette	INFO	Stopped listening on port 36771
+1605867857266	geckodriver	INFO	Listening on 127.0.0.1:40663
+1605867857276	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJxUeQu"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605867859198	Marionette	INFO	Listening on port 44527
+1605867859307	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605867892929	geckodriver	INFO	Listening on 127.0.0.1:51571
+1605867892939	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRKrkOr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605867895066	Marionette	INFO	Listening on port 35537
+1605867895166	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605867945526	Marionette	INFO	Stopped listening on port 44527
+1605867946776	geckodriver	INFO	Listening on 127.0.0.1:57005
+1605867946782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6yRpd5"
+1605867946912	Marionette	INFO	Stopped listening on port 35537
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605867948821	Marionette	INFO	Listening on port 39233
+1605867948916	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605867991033	geckodriver	INFO	Listening on 127.0.0.1:45049
+1605867991043	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecnBQrW"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605867992990	Marionette	INFO	Listening on port 43573
+1605867993065	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605867995364	Marionette	INFO	Stopped listening on port 39233
+1605868031675	geckodriver	INFO	Listening on 127.0.0.1:49173
+1605868031686	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepHRx1R"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605868033651	Marionette	INFO	Listening on port 33027
+1605868033709	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605868063033	geckodriver	INFO	Listening on 127.0.0.1:35393
+1605868063040	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFEUV7m"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605868065013	Marionette	INFO	Listening on port 34623
+1605868065078	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605868067495	Marionette	INFO	Stopped listening on port 33027
+1605868069121	Marionette	INFO	Stopped listening on port 34913
+1605868071040	Marionette	INFO	Stopped listening on port 43573
+1605868075055	Marionette	INFO	Stopped listening on port 34019
+1605868082881	Marionette	INFO	Stopped listening on port 34623
+1605868249598	geckodriver	INFO	Listening on 127.0.0.1:40343
+1605868249608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileA4AccZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605868251544	Marionette	INFO	Listening on port 37607
+1605868251645	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605868305740	geckodriver	INFO	Listening on 127.0.0.1:40055
+1605868305750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevSXaq2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605868307723	Marionette	INFO	Listening on port 39627
+1605868307774	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605868343548	geckodriver	INFO	Listening on 127.0.0.1:51551
+1605868343558	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAiKSfJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605868345524	Marionette	INFO	Listening on port 43779
+1605868345585	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605868348072	Marionette	INFO	Stopped listening on port 39627
+1605868350006	Marionette	INFO	Stopped listening on port 37607
+1605868439726	geckodriver	INFO	Listening on 127.0.0.1:59167
+1605868439736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile58R98Y"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605868441657	Marionette	INFO	Listening on port 34465
+1605868441761	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605868488343	geckodriver	INFO	Listening on 127.0.0.1:43547
+1605868488354	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoAmXIi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605868490203	Marionette	INFO	Listening on port 36947
+1605868490276	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605868544673	geckodriver	INFO	Listening on 127.0.0.1:58315
+1605868544678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexpjc9C"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605868546817	Marionette	INFO	Listening on port 34999
+1605868546912	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605868548861	Marionette	INFO	Stopped listening on port 36947
+1605868550496	Marionette	INFO	Stopped listening on port 34465
+1605868608879	Marionette	INFO	Stopped listening on port 34999
+1605868620631	geckodriver	INFO	Listening on 127.0.0.1:38427
+1605868620637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexOytgy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605868622481	Marionette	INFO	Listening on port 45693
+1605868622559	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605868855718	Marionette	INFO	Stopped listening on port 45693
+1605869119607	geckodriver	INFO	Listening on 127.0.0.1:56689
+1605869119618	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegP5lj4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605869121607	Marionette	INFO	Listening on port 33213
+1605869121643	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605869124081	Marionette	INFO	Stopped listening on port 43779
+1605869164016	geckodriver	INFO	Listening on 127.0.0.1:42173
+1605869164024	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoqBOlD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605869166020	Marionette	INFO	Listening on port 33297
+1605869166069	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605869283156	geckodriver	INFO	Listening on 127.0.0.1:37903
+1605869283166	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0To5D1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605869285246	Marionette	INFO	Listening on port 32967
+1605869285303	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605869287010	Marionette	INFO	Stopped listening on port 32967
+1605869289841	Marionette	INFO	Stopped listening on port 33297
+1605869291738	Marionette	INFO	Stopped listening on port 33213
+1605869411207	geckodriver	INFO	Listening on 127.0.0.1:32857
+1605869411215	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePA267q"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605869413180	Marionette	INFO	Listening on port 39223
+1605869413242	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605869499055	geckodriver	INFO	Listening on 127.0.0.1:60805
+1605869499066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQucOMZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605869501040	Marionette	INFO	Listening on port 39597
+1605869501090	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605869545841	geckodriver	INFO	Listening on 127.0.0.1:40303
+1605869545852	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile09QA8E"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605869547801	Marionette	INFO	Listening on port 34157
+1605869547873	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605869551568	Marionette	INFO	Stopped listening on port 39597
+1605869553112	Marionette	INFO	Stopped listening on port 39223
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605869556482	Marionette	INFO	Stopped listening on port 40777
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 192: TypeError: rule is undefined
+1605869840643	geckodriver	INFO	Listening on 127.0.0.1:47821
+1605869840653	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledcMSrv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605869842715	Marionette	INFO	Listening on port 35735
+1605869842781	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605870082348	geckodriver	INFO	Listening on 127.0.0.1:52715
+1605870082358	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqMpD5Z"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 376))
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1605870086470	Marionette	INFO	Stopped listening on port 35735
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605870088549	Marionette	INFO	Stopped listening on port 34157
+1605870089727	geckodriver	INFO	Listening on 127.0.0.1:51929
+1605870089737	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3FsJct"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605870091707	Marionette	INFO	Listening on port 36557
+1605870091773	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605870111320	Marionette	INFO	Stopped listening on port 36557
+1605870112255	geckodriver	INFO	Listening on 127.0.0.1:48933
+1605870112265	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecO5593"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605870114191	Marionette	INFO	Listening on port 43893
+1605870114304	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605870167414	Marionette	INFO	Stopped listening on port 43893
+1605870190947	geckodriver	INFO	Listening on 127.0.0.1:49599
+1605870190954	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMb3glC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605870192839	Marionette	INFO	Listening on port 44575
+1605870192883	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605870231385	geckodriver	INFO	Listening on 127.0.0.1:49601
+1605870231391	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBFBQZh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605870233401	Marionette	INFO	Listening on port 33745
+1605870233523	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605870261897	geckodriver	INFO	Listening on 127.0.0.1:40759
+1605870261904	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledmnOLO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605870263918	Marionette	INFO	Listening on port 37337
+1605870264028	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605870461461	geckodriver	INFO	Listening on 127.0.0.1:47223
+1605870461468	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8IbgGZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605870463512	Marionette	INFO	Listening on port 35537
+1605870463598	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605870585196	geckodriver	INFO	Listening on 127.0.0.1:50205
+1605870585202	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7toLtE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605870587152	Marionette	INFO	Listening on port 46001
+1605870587253	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605870633280	geckodriver	INFO	Listening on 127.0.0.1:56597
+1605870633290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenGa3MY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605870635252	Marionette	INFO	Listening on port 39815
+1605870635317	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605870676142	Marionette	INFO	Stopped listening on port 39815
+1605870676968	Marionette	INFO	Stopped listening on port 46001
+1605870677514	Marionette	INFO	Stopped listening on port 35537
+1605870678031	Marionette	INFO	Stopped listening on port 37337
+1605870678528	Marionette	INFO	Stopped listening on port 33745
+1605870679088	Marionette	INFO	Stopped listening on port 44575
+1605870688381	geckodriver	INFO	Listening on 127.0.0.1:55665
+1605870688391	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLU5n20"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605870690338	Marionette	INFO	Listening on port 43029
+1605870690436	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605870896403	geckodriver	INFO	Listening on 127.0.0.1:46379
+1605870896413	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSYUM5m"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605870898362	Marionette	INFO	Listening on port 44367
+1605870898444	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/proxy.js, line 283: NS_ERROR_NOT_INITIALIZED
+1605870910065	Marionette	INFO	Stopped listening on port 44367
+1605870927245	geckodriver	INFO	Listening on 127.0.0.1:50525
+1605870927252	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelmHvJf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605870929262	Marionette	INFO	Listening on port 36507
+1605870929380	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/proxy.js, line 283: NS_ERROR_NOT_INITIALIZED
+1605870946468	Marionette	INFO	Stopped listening on port 36507
+1605870947705	geckodriver	INFO	Listening on 127.0.0.1:55429
+1605870947711	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemYR0SD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605870949654	Marionette	INFO	Listening on port 39813
+1605870949737	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605871093907	geckodriver	INFO	Listening on 127.0.0.1:58025
+1605871093917	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKkXu3d"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605871095762	Marionette	INFO	Listening on port 36779
+1605871095868	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605871154743	Marionette	INFO	Stopped listening on port 36779
+1605871155983	geckodriver	INFO	Listening on 127.0.0.1:56795
+1605871155994	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePbQsDk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605871158072	Marionette	INFO	Listening on port 43701
+1605871158121	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605871181243	Marionette	INFO	Stopped listening on port 43701
+1605871192629	geckodriver	INFO	Listening on 127.0.0.1:37419
+1605871192639	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9FGKjn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605871194469	Marionette	INFO	Listening on port 37403
+1605871194576	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605871407812	Marionette	INFO	Stopped listening on port 37403
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605871408654	Marionette	INFO	Stopped listening on port 39813
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605871409423	Marionette	INFO	Stopped listening on port 43029
+1605871410619	geckodriver	INFO	Listening on 127.0.0.1:44563
+1605871410629	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZP6NX5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605871412400	Marionette	INFO	Listening on port 43957
+1605871412500	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605871429749	Marionette	INFO	Stopped listening on port 43957
+1605871464599	geckodriver	INFO	Listening on 127.0.0.1:40911
+1605871464606	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileI1k2vJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605871466624	Marionette	INFO	Listening on port 33587
+1605871466758	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605872563837	geckodriver	INFO	Listening on 127.0.0.1:34715
+1605872563847	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefRVulo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605872565706	Marionette	INFO	Listening on port 37045
+1605872565771	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605872670332	geckodriver	INFO	Listening on 127.0.0.1:46087
+1605872670343	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOJK0H1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605872672182	Marionette	INFO	Listening on port 35881
+1605872672269	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605873046971	geckodriver	INFO	Listening on 127.0.0.1:46197
+1605873046981	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileK5Gfjp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605873048793	Marionette	INFO	Listening on port 40719
+1605873048911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605873164020	geckodriver	INFO	Listening on 127.0.0.1:57893
+1605873164030	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiles3almD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605873165847	Marionette	INFO	Listening on port 40169
+1605873165964	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605873194460	geckodriver	INFO	Listening on 127.0.0.1:52551
+1605873194471	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5MGQfz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605873196561	Marionette	INFO	Listening on port 44943
+1605873196598	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605873198709	Marionette	INFO	Stopped listening on port 40169
+1605873199618	Marionette	INFO	Stopped listening on port 40719
+1605873200173	Marionette	INFO	Stopped listening on port 35881
+1605873200736	Marionette	INFO	Stopped listening on port 37045
+1605873201252	Marionette	INFO	Stopped listening on port 33587
+1605873383723	geckodriver	INFO	Listening on 127.0.0.1:38849
+1605873383733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebDidVo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605873385722	Marionette	INFO	Listening on port 46367
+1605873385759	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605873488740	geckodriver	INFO	Listening on 127.0.0.1:56923
+1605873488750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6qPoZY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605873490823	Marionette	INFO	Listening on port 42445
+1605873490875	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605873567919	geckodriver	INFO	Listening on 127.0.0.1:34439
+1605873567929	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMYN0Do"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605873569825	Marionette	INFO	Listening on port 35513
+1605873569884	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605873573379	Marionette	INFO	Stopped listening on port 42445
+1605873574399	Marionette	INFO	Stopped listening on port 46367
+1605873747604	geckodriver	INFO	Listening on 127.0.0.1:34887
+1605873747614	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNSjKKn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605873749584	Marionette	INFO	Listening on port 40419
+1605873749642	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605873851580	geckodriver	INFO	Listening on 127.0.0.1:36709
+1605873851587	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSIcFOT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605873853416	Marionette	INFO	Listening on port 43707
+1605873853525	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605873877027	geckodriver	INFO	Listening on 127.0.0.1:33985
+1605873877037	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQ9QMLp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605873878880	Marionette	INFO	Listening on port 43309
+1605873878960	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605873932574	geckodriver	INFO	Listening on 127.0.0.1:51993
+1605873932585	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejs9xYL"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605873934491	Marionette	INFO	Listening on port 43615
+1605873934618	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605874098033	geckodriver	INFO	Listening on 127.0.0.1:35903
+1605874098043	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9o2ngx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605874099951	Marionette	INFO	Listening on port 40709
+1605874100070	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605874220436	geckodriver	INFO	Listening on 127.0.0.1:41819
+1605874220447	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUzc81v"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605874222399	Marionette	INFO	Listening on port 46157
+1605874222481	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605874226605	Marionette	INFO	Stopped listening on port 43707
+1605874228940	Marionette	INFO	Stopped listening on port 40709
+1605874232099	Marionette	INFO	Stopped listening on port 43615
+1605874233795	Marionette	INFO	Stopped listening on port 43309
+1605874608915	geckodriver	INFO	Listening on 127.0.0.1:60187
+1605874608926	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileASPDxm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605874610930	Marionette	INFO	Listening on port 38345
+1605874611071	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605874676309	geckodriver	INFO	Listening on 127.0.0.1:55145
+1605874676319	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX60zUM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605874678177	Marionette	INFO	Listening on port 43481
+1605874678256	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605874710475	geckodriver	INFO	Listening on 127.0.0.1:58527
+1605874710485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemmSG0m"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605874712409	Marionette	INFO	Listening on port 40969
+1605874712508	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605874753103	geckodriver	INFO	Listening on 127.0.0.1:39759
+1605874753111	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9DzpFy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605874755165	Marionette	INFO	Listening on port 46055
+1605874755234	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605874826077	geckodriver	INFO	Listening on 127.0.0.1:47609
+1605874826088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTojOIz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605874828053	Marionette	INFO	Listening on port 42271
+1605874828117	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605874831435	Marionette	INFO	Stopped listening on port 46055
+1605874832209	Marionette	INFO	Stopped listening on port 40969
+1605874832865	Marionette	INFO	Stopped listening on port 43481
+1605874833418	Marionette	INFO	Stopped listening on port 38345
+1605874834514	Marionette	INFO	Stopped listening on port 46157
+1605874835175	Marionette	INFO	Stopped listening on port 40419
+1605874835753	Marionette	INFO	Stopped listening on port 35513
+1605874836447	Marionette	INFO	Stopped listening on port 44943
+1605874931719	geckodriver	INFO	Listening on 127.0.0.1:55431
+1605874931726	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemjnLvb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605874933689	Marionette	INFO	Listening on port 42169
+1605874933752	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605874969372	geckodriver	INFO	Listening on 127.0.0.1:34117
+1605874969379	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCtrd2E"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605874971285	Marionette	INFO	Listening on port 33229
+1605874971311	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605875002536	Marionette	INFO	Stopped listening on port 42169
+1605875013117	geckodriver	INFO	Listening on 127.0.0.1:55097
+1605875013128	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilethdPPM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605875015070	Marionette	INFO	Listening on port 46147
+1605875015155	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605875022791	Marionette	INFO	Stopped listening on port 33229
+1605875026357	Marionette	INFO	Stopped listening on port 42271
+1605875049479	geckodriver	INFO	Listening on 127.0.0.1:50411
+1605875049486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoGHCqw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605875051493	Marionette	INFO	Listening on port 35653
+1605875051527	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605875106908	geckodriver	INFO	Listening on 127.0.0.1:51679
+1605875106919	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileq41RMA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605875108894	Marionette	INFO	Listening on port 41139
+1605875108947	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605875111315	Marionette	INFO	Stopped listening on port 46147
+1605875152689	Marionette	INFO	Stopped listening on port 41139
+1605875154585	Marionette	INFO	Stopped listening on port 35653
+1605875166223	geckodriver	INFO	Listening on 127.0.0.1:45927
+1605875166233	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecKAA96"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605875168039	Marionette	INFO	Listening on port 38363
+1605875168187	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605875211643	Marionette	INFO	Stopped listening on port 38363
+1605875212819	geckodriver	INFO	Listening on 127.0.0.1:39959
+1605875212829	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilead5UKx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605875214816	Marionette	INFO	Listening on port 37877
+1605875214853	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605875327026	geckodriver	INFO	Listening on 127.0.0.1:41563
+1605875327036	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRhsEZG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605875329132	Marionette	INFO	Listening on port 41625
+1605875329170	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605875331911	Marionette	INFO	Stopped listening on port 37877
+1605875358291	geckodriver	INFO	Listening on 127.0.0.1:36025
+1605875358298	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiwl6Kt"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605875360245	Marionette	INFO	Listening on port 36959
+1605875360332	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605875362620	Marionette	INFO	Stopped listening on port 41625
+1605875389083	geckodriver	INFO	Listening on 127.0.0.1:53273
+1605875389094	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemkQJR4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605875390964	Marionette	INFO	Listening on port 36447
+1605875391020	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605875393335	Marionette	INFO	Stopped listening on port 36959
+1605875433341	geckodriver	INFO	Listening on 127.0.0.1:43969
+1605875433353	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHYScOf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605875435339	Marionette	INFO	Listening on port 34073
+1605875435375	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605875505552	geckodriver	INFO	Listening on 127.0.0.1:46765
+1605875505559	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7fN5zK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605875507390	Marionette	INFO	Listening on port 38065
+1605875507485	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605875615802	geckodriver	INFO	Listening on 127.0.0.1:49149
+1605875615813	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile69uinY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605875617729	Marionette	INFO	Listening on port 45485
+1605875617848	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605875725413	geckodriver	INFO	Listening on 127.0.0.1:34917
+1605875725423	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3AS4H0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605875727397	Marionette	INFO	Listening on port 40661
+1605875727470	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605876419966	geckodriver	INFO	Listening on 127.0.0.1:42747
+1605876419977	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilef60Vbb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605876421918	Marionette	INFO	Listening on port 42621
+1605876422008	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605876449912	Marionette	INFO	Stopped listening on port 42621
+1605876452893	Marionette	INFO	Stopped listening on port 40661
+1605876454330	Marionette	INFO	Stopped listening on port 45485
+1605876455988	Marionette	INFO	Stopped listening on port 36447
+1605876457275	Marionette	INFO	Stopped listening on port 34073
+1605876458561	Marionette	INFO	Stopped listening on port 38065
+1605876476531	geckodriver	INFO	Listening on 127.0.0.1:37309
+1605876476541	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRZIhJR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605876478499	Marionette	INFO	Listening on port 43291
+1605876478566	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605876828502	geckodriver	INFO	Listening on 127.0.0.1:51565
+1605876828512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWNndhN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605876830481	Marionette	INFO	Listening on port 44683
+1605876830536	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605876853266	Marionette	INFO	Stopped listening on port 44683
+1605876858799	geckodriver	INFO	Listening on 127.0.0.1:42079
+1605876858809	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyodzAe"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605876860773	Marionette	INFO	Listening on port 33473
+1605876860870	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605876903653	geckodriver	INFO	Listening on 127.0.0.1:45469
+1605876903664	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePjkz2D"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605876905531	Marionette	INFO	Listening on port 44389
+1605876905590	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605876925206	Marionette	INFO	Stopped listening on port 44389
+1605876974063	geckodriver	INFO	Listening on 127.0.0.1:59329
+1605876974073	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWnfwTz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605876976107	Marionette	INFO	Listening on port 42587
+1605876976205	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605876999310	Marionette	INFO	Stopped listening on port 42587
+1605877242887	geckodriver	INFO	Listening on 127.0.0.1:55691
+1605877242897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6KmEtC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877244881	Marionette	INFO	Listening on port 39855
+1605877244942	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1605877338654	Marionette	INFO	Stopped listening on port 39855
+1605877343512	geckodriver	INFO	Listening on 127.0.0.1:54441
+1605877343522	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQy10Ub"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877345631	Marionette	INFO	Listening on port 44947
+1605877345668	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877362284	Marionette	INFO	Stopped listening on port 44947
+1605877363449	geckodriver	INFO	Listening on 127.0.0.1:59509
+1605877363459	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepIrAr4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877365326	Marionette	INFO	Listening on port 44857
+1605877365391	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877400284	geckodriver	INFO	Listening on 127.0.0.1:56163
+1605877400295	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenUQAkz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877402227	Marionette	INFO	Listening on port 42349
+1605877402330	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877442657	Marionette	INFO	Stopped listening on port 42349
+1605877446228	geckodriver	INFO	Listening on 127.0.0.1:52127
+1605877446239	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCMpSZh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877448210	Marionette	INFO	Listening on port 40241
+1605877448276	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877473006	Marionette	INFO	Stopped listening on port 40241
+1605877474267	geckodriver	INFO	Listening on 127.0.0.1:39343
+1605877474273	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNt2Igh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877476208	Marionette	INFO	Listening on port 43959
+1605877476306	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877514061	Marionette	INFO	Stopped listening on port 43959
+1605877515118	geckodriver	INFO	Listening on 127.0.0.1:55833
+1605877515204	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiles2vkss"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877517042	Marionette	INFO	Listening on port 35371
+1605877517134	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877582785	Marionette	INFO	Stopped listening on port 35371
+1605877590532	geckodriver	INFO	Listening on 127.0.0.1:42331
+1605877590542	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqzuCDF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877592456	Marionette	INFO	Listening on port 35741
+1605877592567	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877631262	Marionette	INFO	Stopped listening on port 35741
+1605877636275	geckodriver	INFO	Listening on 127.0.0.1:37193
+1605877636285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekrYO2S"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877638236	Marionette	INFO	Listening on port 43477
+1605877638323	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877686600	Marionette	INFO	Stopped listening on port 43477
+1605877687535	geckodriver	INFO	Listening on 127.0.0.1:54565
+1605877687545	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejf7YZj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877689493	Marionette	INFO	Listening on port 41243
+1605877689579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877722797	Marionette	INFO	Stopped listening on port 41243
+1605877724014	geckodriver	INFO	Listening on 127.0.0.1:52489
+1605877724024	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMSmc4h"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877725965	Marionette	INFO	Listening on port 40325
+1605877726051	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877762110	Marionette	INFO	Stopped listening on port 40325
+1605877763439	geckodriver	INFO	Listening on 127.0.0.1:56979
+1605877763449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileG1oI0f"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877765457	Marionette	INFO	Listening on port 37741
+1605877765584	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877818377	Marionette	INFO	Stopped listening on port 37741
+1605877819894	geckodriver	INFO	Listening on 127.0.0.1:52835
+1605877819904	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8cvf1w"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877821752	Marionette	INFO	Listening on port 43267
+1605877821827	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877853246	geckodriver	INFO	Listening on 127.0.0.1:56547
+1605877853253	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCMNyby"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877855162	Marionette	INFO	Listening on port 45115
+1605877855196	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877909923	Marionette	INFO	Stopped listening on port 45115
+1605877910826	Marionette	INFO	Stopped listening on port 43267
+1605877911373	Marionette	INFO	Stopped listening on port 44857
+1605877911891	Marionette	INFO	Stopped listening on port 33473
+1605877912672	Marionette	INFO	Stopped listening on port 43291
+1605877914412	geckodriver	INFO	Listening on 127.0.0.1:36613
+1605877914422	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebxx8Ne"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877916447	Marionette	INFO	Listening on port 38835
+1605877916546	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877960493	Marionette	INFO	Stopped listening on port 38835
+1605877963288	geckodriver	INFO	Listening on 127.0.0.1:46589
+1605877963298	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileD2Yvlm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877965267	Marionette	INFO	Listening on port 43225
+1605877965329	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605878010551	Marionette	INFO	Stopped listening on port 43225
+1605878011404	geckodriver	INFO	Listening on 127.0.0.1:37367
+1605878011414	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuiXz4O"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605878013217	Marionette	INFO	Listening on port 39419
+1605878013256	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605878134866	geckodriver	INFO	Listening on 127.0.0.1:36821
+1605878134872	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJmsc40"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605878136675	Marionette	INFO	Listening on port 46189
+1605878136714	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605878357313	Marionette	INFO	Stopped listening on port 46189
+1605878359661	Marionette	INFO	Stopped listening on port 39419
+1605882215281	geckodriver	INFO	Listening on 127.0.0.1:48135
+1605882215294	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8TflhY"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605882216878	Marionette	INFO	Listening on port 40669
+1605882216998	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605882258542	geckodriver	INFO	Listening on 127.0.0.1:47387
+1605882258547	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletMlEUL"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605882260327	Marionette	INFO	Listening on port 39189
+1605882260374	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+
+(firefox:31145): GLib-GObject-CRITICAL **: 15:25:27.594: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1605882331722	Marionette	INFO	Stopped listening on port 39189
+1605882398719	geckodriver	INFO	Listening on 127.0.0.1:39903
+1605882398726	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesRJI0U"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605882400672	Marionette	INFO	Listening on port 35283
+1605882400749	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://ebok.pgnig.pl/firebase-messaging-sw.js for scope https://ebok.pgnig.pl/ encountered an error during installation.
+1605882405552	Marionette	INFO	Stopped listening on port 35283
+1605882477174	geckodriver	INFO	Listening on 127.0.0.1:36779
+1605882477182	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOOrKxk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605882479134	Marionette	INFO	Listening on port 42975
+1605882479208	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605882494663	Marionette	INFO	Stopped listening on port 42975
+1605882526281	geckodriver	INFO	Listening on 127.0.0.1:42767
+1605882526289	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8Nvrk6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605882528236	Marionette	INFO	Listening on port 33135
+1605882528326	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605882537930	Marionette	INFO	Stopped listening on port 33135
+1605882570023	geckodriver	INFO	Listening on 127.0.0.1:54999
+1605882570031	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAb9BYb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605882572002	Marionette	INFO	Listening on port 34411
+1605882572057	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605882581580	Marionette	INFO	Stopped listening on port 34411
+1605882646072	geckodriver	INFO	Listening on 127.0.0.1:57867
+1605882646079	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8drytD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605882647996	Marionette	INFO	Listening on port 44061
+1605882648126	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605882658821	Marionette	INFO	Stopped listening on port 44061
+1605882673828	geckodriver	INFO	Listening on 127.0.0.1:53861
+1605882673839	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebSjMal"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605882675773	Marionette	INFO	Listening on port 44693
+1605882675885	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605882685537	Marionette	INFO	Stopped listening on port 44693
+1605882751531	geckodriver	INFO	Listening on 127.0.0.1:60427
+1605882751539	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEDr8P0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605882753534	Marionette	INFO	Listening on port 42071
+1605882753578	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605882763942	Marionette	INFO	Stopped listening on port 42071
+1605882798538	geckodriver	INFO	Listening on 127.0.0.1:49131
+1605882798548	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejb4OKB"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605882800298	Marionette	INFO	Listening on port 34299
+1605882800370	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605882909016	geckodriver	INFO	Listening on 127.0.0.1:52311
+1605882909027	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBSTiBP"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605882910816	Marionette	INFO	Listening on port 34221
+1605882910862	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+
+(firefox:1543): GLib-GObject-CRITICAL **: 15:35:51.148: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1605882955388	Marionette	INFO	Stopped listening on port 34221
+1605882955793	geckodriver	INFO	Listening on 127.0.0.1:48543
+1605882955800	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5BcuHI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605882957780	Marionette	INFO	Listening on port 37795
+1605882957833	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605882968922	Marionette	INFO	Stopped listening on port 37795
