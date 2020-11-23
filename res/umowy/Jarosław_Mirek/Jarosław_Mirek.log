@@ -1,9 +1,13 @@
+<<<<<<< HEAD:res/umowy/Jarosław Mirek/Jarosław Mirek.log
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  18 NOV 2020 15:54
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.11.10)  19 NOV 2020 10:50
+>>>>>>> d065e98102ab0392a18ea6e554ea4b2b24a9aab9:res/umowy/Jarosław_Mirek/Jarosław_Mirek.log
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Jarosław Mirek.tex"
-(./Jarosław Mirek.tex
+**/home/lagvna/Tennants/res/umowy/Jarosław_Mirek/Jarosław_Mirek.tex
+(/home/lagvna/Tennants/res/umowy/Jarosław_Mirek/Jarosław_Mirek.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -988,8 +992,13 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
+<<<<<<< HEAD:res/umowy/Jarosław Mirek/Jarosław Mirek.log
 (./Jarosław Mirek.aux)
 \openout1 = `"Jarosław Mirek.aux"'.
+=======
+(./Jarosław_Mirek.aux)
+\openout1 = `Jarosław_Mirek.aux'.
+>>>>>>> d065e98102ab0392a18ea6e554ea4b2b24a9aab9:res/umowy/Jarosław_Mirek/Jarosław_Mirek.log
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -1087,9 +1096,13 @@ LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
 LaTeX Info: Redefining \nameref on input line 21.
 
+<<<<<<< HEAD:res/umowy/Jarosław Mirek/Jarosław Mirek.log
 (./Jarosław Mirek.out) (./Jarosław Mirek.out)
+=======
+(./Jarosław_Mirek.out) (./Jarosław_Mirek.out)
+>>>>>>> d065e98102ab0392a18ea6e554ea4b2b24a9aab9:res/umowy/Jarosław_Mirek/Jarosław_Mirek.log
 \@outlinefile=\write4
-\openout4 = `"Jarosław Mirek.out"'.
+\openout4 = `Jarosław_Mirek.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -1120,27 +1133,42 @@ iezw�ocznie o konieczno�ci przeprowadzenia
 [2] [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
- (./Jarosław Mirek.aux)
+ (/home/lagvna/Tennants/res/umowy/Jarosław_Mirek/Jarosław_Mirek.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
+<<<<<<< HEAD:res/umowy/Jarosław Mirek/Jarosław Mirek.log
 Package rerunfilecheck Info: File `"Jarosław Mirek".out' has not changed.
+=======
+Package rerunfilecheck Info: File `Jarosław_Mirek.out' has not changed.
+>>>>>>> d065e98102ab0392a18ea6e554ea4b2b24a9aab9:res/umowy/Jarosław_Mirek/Jarosław_Mirek.log
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD:res/umowy/Jarosław Mirek/Jarosław Mirek.log
  19911 strings out of 492982
  354151 string characters out of 6134895
  436887 words of memory out of 5000000
+=======
+ 19912 strings out of 492982
+ 354481 string characters out of 6134895
+ 436889 words of memory out of 5000000
+>>>>>>> d065e98102ab0392a18ea6e554ea4b2b24a9aab9:res/umowy/Jarosław_Mirek/Jarosław_Mirek.log
  23092 multiletter control sequences out of 15000+600000
  13118 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,54p,431b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,6n,54p,477b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
 fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfti1095.pfb>
+<<<<<<< HEAD:res/umowy/Jarosław Mirek/Jarosław Mirek.log
 Output written on "Jarosław Mirek.pdf" (3 pages, 91711 bytes).
+=======
+Output written on /home/lagvna/Tennants/res/umowy/Jarosław_Mirek/Jarosław_Mir
+ek.pdf (3 pages, 91711 bytes).
+>>>>>>> d065e98102ab0392a18ea6e554ea4b2b24a9aab9:res/umowy/Jarosław_Mirek/Jarosław_Mirek.log
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
