@@ -12,6 +12,7 @@ from configparser import SafeConfigParser
 from scrape import *
 import numpy as np
 import pandas as pd
+from datetime import datetime, timedelta
 
 import mechanize
 import http.cookiejar
@@ -54,14 +55,21 @@ def list_all_apartments():
 
 @cli.command('genbil', help='Generate bills for the current period for a particular tennant')
 # @click.option('--aid', required=True, help='Apartment ID')
-# @click.option('--month', required=True, help='For which month bills should be generated')
-# @click.option('--year', required=True, help='For which year bills should be generated')
-def generate_bills():
-    #get_smpiast_costs(config_parser, [1], [2020])
-    #get_tauron_costs(config_parser)
-    #get_pgnig_costs(config_parser)
-    df = pd.read_csv('/home/lagvna/Pobrane/2000-01-01_2030-01-01_export.csv', encoding ='latin1')
-    print(df)
+@click.option('--month', multiple=True, required=True, help='For which months bills should be generated')
+@click.option('--year', required=True, help='For which year bills should be generated')
+def generate_bills(month, year):
+    months = list(month)
+    water = get_smpiast_costs(months, year)
+    electricity = get_tauron_costs(months, year)
+    gas = get_pgnig_costs(months, year)
+    gas = gas.groupby('data', as_index=False).sum()
+    #gas = gas[(gas['data'].map(lambda x : x.month in months)) 
+     #       & (gas['data'].map(lambda x : x.year == year))]
+    print(water)
+    print(electricity)
+    print(gas.head())
+    #df = pd.read_csv('/home/lagvna/Pobrane/2000-01-01_2030-01-01_export.csv', encoding ='latin1')
+    #print(df)
 
 def send_bills():
     pass

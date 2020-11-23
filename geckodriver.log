@@ -2041,3 +2041,58 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1605882957780	Marionette	INFO	Listening on port 37795
 1605882957833	Marionette	WARN	TLS certificate errors will be ignored for this session
 1605882968922	Marionette	INFO	Stopped listening on port 37795
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1606125376330	geckodriver	INFO	Listening on 127.0.0.1:35439
+1606125377342	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyZvi9B"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606125379242	Marionette	INFO	Listening on port 43909
+1606125379273	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+Marionette threw an error: TypeError: this.curBrowser.messageManager is null
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:361:5
+send/<@chrome://marionette/content/proxy.js:190:12
+send@chrome://marionette/content/proxy.js:124:12
+get/<@chrome://marionette/content/proxy.js:37:29
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:2082:28
+
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://ebok.pgnig.pl/firebase-messaging-sw.js for scope https://ebok.pgnig.pl/ encountered an error during installation.
+1606125420958	Marionette	INFO	Stopped listening on port 43909
+1606125423001	geckodriver	INFO	Listening on 127.0.0.1:50419
+1606125423006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledhut0g"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606125424860	Marionette	INFO	Listening on port 33075
+1606125424937	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: https://ebok.pgnig.pl/assets/app.js?v-1.5.74, line 47: Error: Network Error
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://ebok.pgnig.pl/firebase-messaging-sw.js for scope https://ebok.pgnig.pl/ encountered an error during installation.
+1606125491366	Marionette	INFO	Stopped listening on port 33075
+1606125525413	geckodriver	INFO	Listening on 127.0.0.1:44141
+1606125525418	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6qV7Cz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606125527319	Marionette	INFO	Listening on port 40673
+1606125527343	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1606125562484	Marionette	INFO	Stopped listening on port 40673
+1606125605838	geckodriver	INFO	Listening on 127.0.0.1:46651
+1606125605848	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDyMXaL"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606125607724	Marionette	INFO	Listening on port 33015
+1606125607783	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606125654171	geckodriver	INFO	Listening on 127.0.0.1:41987
+1606125654181	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYiUATR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606125656127	Marionette	INFO	Listening on port 40043
+1606125656210	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606125657928	Marionette	INFO	Stopped listening on port 33015
+1606125681833	Marionette	INFO	Stopped listening on port 40043
