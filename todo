@@ -4,6 +4,10 @@ DONE 1. Hasla w jakims osobnym pliku configowym na zewnatrz repozytorium [config
 DONE 2. Ogolny config? Zeby podawac strony i szczegoly z jednego miejsca.
 DONE 2. Scraping pgnig
 DONE 3. Scraping tauron
-4. Tworzenie arkusza z oplatami (czytanie tych zescrape'owanych danych)
+DONE 4. Tworzenie arkusza z oplatami (czytanie tych zescrape'owanych danych)
 5. Wysylanie maili?
 6. GUI?
+7. scrape obiektowo?
+8. Podawanie zadanego mieszkania
+9. Wyjatki
+10. Tauron kilka prob -> tqdm?

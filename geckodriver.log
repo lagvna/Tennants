@@ -2096,3 +2096,42 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1606125656210	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606125657928	Marionette	INFO	Stopped listening on port 33015
 1606125681833	Marionette	INFO	Stopped listening on port 40043
+1606155222303	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xxHeTyUJVABO"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606155223963	Marionette	INFO	Listening on port 41921
+1606155224224	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+1606155338091	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dGUwhqhNRixD"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606155339719	Marionette	INFO	Listening on port 39161
+1606155339817	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+1606155447576	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vfk2RsavNQNR"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606155449387	Marionette	INFO	Listening on port 39067
+1606155449561	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/libs/jqupload/handler.base.js, line 4: ReferenceError: qq is not defined
+JavaScript error: https://ebok.tauron.pl/js/libs/jqupload/handler.form.js, line 5: ReferenceError: qq is not defined
+JavaScript error: https://ebok.tauron.pl/js/libs/jqupload/handler.xhr.js, line 5: ReferenceError: qq is not defined
+JavaScript error: https://ebok.tauron.pl/js/libs/jqupload/dnd.js, line 2: ReferenceError: qq is not defined
+JavaScript error: https://ebok.tauron.pl/js/libs/jqupload/uploader.basic.js?v=3.1.0, line 1: ReferenceError: qq is not defined
+JavaScript error: https://ebok.tauron.pl/js/libs/jqupload/uploader.js?v=3.1.0, line 5: ReferenceError: qq is not defined
+1606155547717	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.746dZw4AUkbI"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606155549351	Marionette	INFO	Listening on port 42219
+1606155549460	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+
+(firefox:7040): GLib-GObject-CRITICAL **: 19:19:44.954: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1606155589335	Marionette	INFO	Stopped listening on port 42219
+1606155589906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5YfIoDhNFbti"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606155591768	Marionette	INFO	Listening on port 42123
+1606155591889	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606155606846	Marionette	INFO	Stopped listening on port 42123

@@ -249,12 +249,9 @@ def get_pgnig_costs(months, year):
     df['kwota'] = costs
     #print(df)
     df = df.groupby('data', as_index=False).sum()
-    #df = df[(df['data'].map(lambda x : x.month in months)) 
-    #        & (df['data'].map(lambda x : x.year == year))]
-    #
-    #df2 = pd.DataFrame(df)
+    df = df[df['data'].dt.year == int(year)]
+    df = df[pd.to_datetime(df['data']).dt.month.isin(months)]
 
-    #print(df2)
     return df
 
 def get_tauron_costs(months, year):
@@ -270,11 +267,13 @@ def get_tauron_costs(months, year):
     
     df['data'] = pd.to_datetime(df['data'], format='%d.%m.%Y')
     df['kwota'] = df['kwota'].str.replace(',', '.')
+    df['kwota'] = pd.to_numeric(df['kwota'])
+    #df['kwota'] = df['kwota'].round(decimals=2)
     # potraktowac te kolumne jako float, a nie string
     df = df.groupby('data', as_index=False).sum()
-    #df = df[(df['data'].map(lambda x : x.month in months)) 
-    #        & (df['data'].map(lambda x : x.year == year))]
-
+    df = df[df['data'].dt.year == int(year)]
+    df = df[pd.to_datetime(df['data']).dt.month.isin(months)]
+    
     return df
 
 

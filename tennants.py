@@ -14,10 +14,6 @@ import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
 
-import mechanize
-import http.cookiejar
-from bs4 import BeautifulSoup
-import html2text
 
 config_file = '/home/lagvna/config.ini'
 config_parser = SafeConfigParser()
@@ -62,14 +58,17 @@ def generate_bills(month, year):
     water = get_smpiast_costs(months, year)
     electricity = get_tauron_costs(months, year)
     gas = get_pgnig_costs(months, year)
-    gas = gas.groupby('data', as_index=False).sum()
-    #gas = gas[(gas['data'].map(lambda x : x.month in months)) 
-     #       & (gas['data'].map(lambda x : x.year == year))]
-    print(water)
-    print(electricity)
-    print(gas.head())
-    #df = pd.read_csv('/home/lagvna/Pobrane/2000-01-01_2030-01-01_export.csv', encoding ='latin1')
-    #print(df)
+
+    df = pd.DataFrame(columns=['Miesiąc', 'Energia elektryczna', 'Gaz', 'Woda ciepła', 
+        'Woda zimna', 'Razem wszystkie opłaty', 'Razem na jedną osobę'])
+
+    print(df)
+    df.to_csv(r'oplaty.csv')
+
+    # print(water)
+    # print(electricity)
+    # print(gas)
+
 
 def send_bills():
     pass
@@ -99,20 +98,30 @@ def generate_lease_agreement(tid, lid, aid, fr, to, rent):
 
 def build_details_dict(landlord, tennant, apartment, fr, to, rent):
 
-    details = {"[1]":fr,"[2]": landlord.loc['Imię i nazwisko'],
-            "[3]":landlord.loc['Ulica i numer domu'], "[4]":landlord.loc['Kod pocztowy'],
-            "[5]":landlord.loc['Miasto'], "[6]":landlord.loc['Seria i numer dowodu osobistego'],
-            "[7]":str(landlord.loc['Numer PESEL']), "[8]":tennant.loc['Imię i nazwisko'],
-            "[9]":tennant.loc['Ulica i numer domu'], "[10]":tennant.loc['Kod pocztowy'],
-            "[11]":tennant.loc['Miasto'], "[12]":tennant.loc['Seria i numer dowodu osobistego'],
-            "[13]":str(tennant.loc['Numer PESEL']),"[14]":apartment.loc['Ulica i numer domu'],
-            "[15]":str(apartment.loc['Powierzchnia']), "[16]":to,
-            "[17]":str(rent), "[19]":tennant.loc['Adres email'],
-            "[20]":landlord.loc['Adres email'], "[21]":str(tennant.loc['Numer telefonu']),
+    details = {
+            "[1]":fr,
+            "[2]": landlord.loc['Imię i nazwisko'],
+            "[3]":landlord.loc['Ulica i numer domu'],
+            "[4]":landlord.loc['Kod pocztowy'],
+            "[5]":landlord.loc['Miasto'],
+            "[6]":landlord.loc['Seria i numer dowodu osobistego'],
+            "[7]":str(landlord.loc['Numer PESEL']),
+            "[8]":tennant.loc['Imię i nazwisko'],
+            "[9]":tennant.loc['Ulica i numer domu'],
+            "[10]":tennant.loc['Kod pocztowy'],
+            "[11]":tennant.loc['Miasto'],
+            "[12]":tennant.loc['Seria i numer dowodu osobistego'],
+            "[13]":str(tennant.loc['Numer PESEL']),
+            "[14]":apartment.loc['Ulica i numer domu'],
+            "[15]":str(apartment.loc['Powierzchnia']),
+            "[16]":to,
+            "[17]":str(rent),
+            "[18]":apartment.loc['Miasto'],
+            "[19]":tennant.loc['Adres email'],
+            "[20]":landlord.loc['Adres email'],
+            "[21]":str(tennant.loc['Numer telefonu']),
             "[22]":str(landlord.loc['Numer telefonu']),
-            "[18]":apartment.loc['Miasto']}
-
-    print(details)
+            }
 
     return details
 
@@ -121,7 +130,6 @@ def prepare_agreement(details):
     path = config_parser.get('folders', 'agreements')+details['[8]'].replace(" ", "_")
     Path(path).mkdir(parents=True, exist_ok=True)
     filepath = path+'/'+details['[8]'].replace(" ", "_")+'.tex'
-    #filepath = filepath.replace(" ", "_")
     copyfile('res/template.tex', filepath)
 
     # read copied template and substitute each placeholder with details
