@@ -2135,3 +2135,47 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1606155591768	Marionette	INFO	Listening on port 42123
 1606155591889	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606155606846	Marionette	INFO	Stopped listening on port 42123
+1606230436529	geckodriver	INFO	Listening on 127.0.0.1:38057
+1606230437538	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuNbV8n"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606230439338	Marionette	INFO	Listening on port 32801
+1606230439382	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606230491606	geckodriver	INFO	Listening on 127.0.0.1:39763
+1606230491616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehU4Eak"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606230493341	Marionette	INFO	Listening on port 42889
+1606230493442	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606230610694	geckodriver	INFO	Listening on 127.0.0.1:41839
+1606230610699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejNheL0"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606230612540	Marionette	INFO	Listening on port 43631
+1606230612636	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/ebokUtils.js?v=3.1.13, line 11: TypeError: $(...).livequery is not a function
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+1606230727843	geckodriver	INFO	Listening on 127.0.0.1:59819
+1606230727850	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyigmqB"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606230729688	Marionette	INFO	Listening on port 38225
+1606230729778	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606230827952	geckodriver	INFO	Listening on 127.0.0.1:47321
+1606230827959	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWhS13w"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606230829971	Marionette	INFO	Listening on port 42747
+1606230830089	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+
+(firefox:17001): GLib-GObject-CRITICAL **: 16:14:25.606: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1606230869948	Marionette	INFO	Stopped listening on port 42747
+1606230870369	geckodriver	INFO	Listening on 127.0.0.1:51671
+1606230870376	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecyxoBx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606230872471	Marionette	INFO	Listening on port 37585
+1606230872523	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606230891031	Marionette	INFO	Stopped listening on port 37585
