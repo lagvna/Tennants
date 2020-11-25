@@ -1,4 +1,6 @@
+import os
 import time
+import glob
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -16,13 +18,13 @@ class CostScraper(object):
         self.aid = aid
         self.months = months
         self.year = year
-        download_dir = confighandler.get_folder('download_dir')
+        self.download_dir = confighandler.get_folder('download_dir')
         # run browser silently
         self.options = Options()
         self.options.headless = True
         self.options.add_argument("--start-maximized")
         self.options.add_experimental_option("prefs", {
-            "download.default_directory": download_dir,
+            "download.default_directory": self.download_dir,
             "download.prompt_for_download": False,
         })
 
@@ -44,6 +46,7 @@ class CostScraper(object):
                 print(f"Could not reach page, retrying [{retries}]")
 
     def scrape_smpiast(self):
+        files = []
         # login to smpiast webpage
         url = confighandler.get_smpiast_url(self.aid)
         go(url)
@@ -59,8 +62,12 @@ class CostScraper(object):
             fv("4", "getyear", str(self.year))
             submit()
             # save page as a textfile for further processing
-            save_html(confighandler.get_folder('download_dir') \
-                      +confighandler.get_file('smpiast')+'_'+ str(month)+'_'+str(self.year))
+            file = confighandler.get_folder('download_dir') \
+                      +confighandler.get_file('smpiast')+'_'+ str(month)+'_'+str(self.year)
+            save_html(file)
+            files.append(file)
+
+        return files
 
     def scrape_tauron(self):
         print('Scraping TAURON...')
@@ -102,17 +109,20 @@ class CostScraper(object):
         to_date.send_keys(u'\ue007')
         #to_date.send_keys(u'\ue007')
 
-
         self._get_page_element(driver, wait, 'xpath', '//h2[contains(text(),' \
                                ' "Faktury za okres 2000-01-01")]').click()
         time.sleep(2)
         print("Filtered data")
 
-
         self._get_page_element(driver, wait, 'partial_link_text', 'Pobierz plik CSV').click()
         time.sleep(2)
         print("File saved successfully")
         driver.quit()
+
+        for file in os.listdir(self.download_dir):
+            if file.endswith(".csv"):
+                return self.download_dir + str(file)
+
 
     def scrape_pgnig(self):
         print('Scraping PGNiG...')
@@ -158,10 +168,13 @@ class CostScraper(object):
 
         time.sleep(2)
 
-        with open(confighandler.get_folder('download_dir') + '/pgnig.html', 'w') as file:
-            file.write(driver.page_source)
-
+        file = confighandler.get_folder('download_dir') + 'pgnig.html'
+        with open(file, 'w') as f:
+            f.write(driver.page_source)
+        
         driver.quit()
+
+        return file
 
     def _push_number_of_times(self, driver):
         pushes = int(confighandler.get_pushes(self.aid))
