@@ -2135,12 +2135,326 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1606155591768	Marionette	INFO	Listening on port 42123
 1606155591889	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606155606846	Marionette	INFO	Stopped listening on port 42123
+<<<<<<< HEAD
+=======
+1606230436529	geckodriver	INFO	Listening on 127.0.0.1:38057
+1606230437538	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuNbV8n"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606230439338	Marionette	INFO	Listening on port 32801
+1606230439382	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606230491606	geckodriver	INFO	Listening on 127.0.0.1:39763
+1606230491616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehU4Eak"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606230493341	Marionette	INFO	Listening on port 42889
+1606230493442	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606230610694	geckodriver	INFO	Listening on 127.0.0.1:41839
+1606230610699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejNheL0"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606230612540	Marionette	INFO	Listening on port 43631
+1606230612636	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/ebokUtils.js?v=3.1.13, line 11: TypeError: $(...).livequery is not a function
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+1606230727843	geckodriver	INFO	Listening on 127.0.0.1:59819
+1606230727850	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyigmqB"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606230729688	Marionette	INFO	Listening on port 38225
+1606230729778	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606230827952	geckodriver	INFO	Listening on 127.0.0.1:47321
+1606230827959	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWhS13w"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606230829971	Marionette	INFO	Listening on port 42747
+1606230830089	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+
+(firefox:17001): GLib-GObject-CRITICAL **: 16:14:25.606: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1606230869948	Marionette	INFO	Stopped listening on port 42747
+1606230870369	geckodriver	INFO	Listening on 127.0.0.1:51671
+1606230870376	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecyxoBx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606230872471	Marionette	INFO	Listening on port 37585
+1606230872523	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606230891031	Marionette	INFO	Stopped listening on port 37585
+>>>>>>> c75c7bf3e07d053d88cfaa0e241f88480f7d71e2
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+<<<<<<< HEAD
+=======
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+>>>>>>> c75c7bf3e07d053d88cfaa0e241f88480f7d71e2
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+<<<<<<< HEAD
+=======
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1606295489502	geckodriver	INFO	Listening on 127.0.0.1:36613
+1606295490515	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5ShSN0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606295492401	Marionette	INFO	Listening on port 43621
+1606295492440	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606295517665	Marionette	INFO	Stopped listening on port 43621
+1606295519123	geckodriver	INFO	Listening on 127.0.0.1:53523
+1606295519129	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebxk5SG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606295520981	Marionette	INFO	Listening on port 46287
+1606295521076	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606295592560	geckodriver	INFO	Listening on 127.0.0.1:49849
+1606295592567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRUA7xb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606295594435	Marionette	INFO	Listening on port 37721
+1606295594511	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606295600487	Marionette	INFO	Stopped listening on port 37721
+1606295617446	geckodriver	INFO	Listening on 127.0.0.1:36887
+1606295617454	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqTwohC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606295619276	Marionette	INFO	Listening on port 35481
+1606295619420	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606295623280	Marionette	INFO	Stopped listening on port 35481
+1606295647106	geckodriver	INFO	Listening on 127.0.0.1:34349
+1606295647114	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekhmvTP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606295649107	Marionette	INFO	Listening on port 42709
+1606295649152	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606295653785	Marionette	INFO	Stopped listening on port 42709
+1606295733617	geckodriver	INFO	Listening on 127.0.0.1:58315
+1606295733624	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGc0eUf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606295735535	Marionette	INFO	Listening on port 45081
+1606295735651	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606295741893	Marionette	INFO	Stopped listening on port 45081
+1606295907194	geckodriver	INFO	Listening on 127.0.0.1:57961
+1606295907202	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2pMMh5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606295908967	Marionette	INFO	Listening on port 38273
+1606295909046	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606295915198	Marionette	INFO	Stopped listening on port 38273
+1606295923459	geckodriver	INFO	Listening on 127.0.0.1:42371
+1606295923467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilen0T8mE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606295925393	Marionette	INFO	Listening on port 45539
+1606295925504	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606295934558	Marionette	INFO	Stopped listening on port 45539
+1606295936102	Marionette	INFO	Stopped listening on port 46287
+1606295977873	geckodriver	INFO	Listening on 127.0.0.1:53747
+1606295977880	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCsv844"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606295979756	Marionette	INFO	Listening on port 38561
+1606295979816	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606296103580	geckodriver	INFO	Listening on 127.0.0.1:47329
+1606296103588	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepR69tr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606296105516	Marionette	INFO	Listening on port 37307
+1606296105616	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606296108812	Marionette	INFO	Stopped listening on port 38561
+1606296134315	geckodriver	INFO	Listening on 127.0.0.1:55601
+1606296134322	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaArvc7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606296136298	Marionette	INFO	Listening on port 42797
+1606296136359	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606296142599	Marionette	INFO	Stopped listening on port 42797
+1606296271352	geckodriver	INFO	Listening on 127.0.0.1:59723
+1606296271359	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMuupSr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606296273261	Marionette	INFO	Listening on port 40181
+1606296273291	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606296291725	geckodriver	INFO	Listening on 127.0.0.1:57793
+1606296291732	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileT3q8MP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606296293641	Marionette	INFO	Listening on port 41213
+1606296293765	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+1606296412280	geckodriver	INFO	Listening on 127.0.0.1:41885
+1606296412289	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileG8Rig5"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606296413806	Marionette	INFO	Listening on port 39417
+1606296413918	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606296429719	Marionette	INFO	Stopped listening on port 41213
+1606296431643	Marionette	INFO	Stopped listening on port 40181
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+1606296967520	geckodriver	INFO	Listening on 127.0.0.1:45751
+1606296967530	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoYjpjV"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606296969104	Marionette	INFO	Listening on port 33653
+1606296969175	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606297026656	geckodriver	INFO	Listening on 127.0.0.1:45729
+1606297026664	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQBKcOo"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606297028457	Marionette	INFO	Listening on port 36307
+1606297028512	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+1606297092674	Marionette	INFO	Stopped listening on port 36307
+1606297158786	geckodriver	INFO	Listening on 127.0.0.1:49085
+1606297158793	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVI0HXU"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606297160500	Marionette	INFO	Listening on port 40667
+1606297160631	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+1606297238951	geckodriver	INFO	Listening on 127.0.0.1:37905
+1606297238958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerMMAsK"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606297240561	Marionette	INFO	Listening on port 42763
+1606297240691	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606297320705	geckodriver	INFO	Listening on 127.0.0.1:38841
+1606297320711	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMmKlT7"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606297322309	Marionette	INFO	Listening on port 34731
+1606297322361	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/ebokUtils.js?v=3.1.13, line 11: TypeError: $(...).livequery is not a function
+JavaScript error: https://ebok.tauron.pl/js/scripts.js?v=3.1.8, line 25: ReferenceError: initBaseFormPlugin is not defined
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+
+(firefox:9003): GLib-GObject-CRITICAL **: 10:42:43.892: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1606297368191	Marionette	INFO	Stopped listening on port 34731
+1606297457995	geckodriver	INFO	Listening on 127.0.0.1:60081
+1606297458002	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileq4Hrls"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606297459655	Marionette	INFO	Listening on port 34455
+1606297459726	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+1606297510696	Marionette	INFO	Stopped listening on port 34455
+1606297819044	geckodriver	INFO	Listening on 127.0.0.1:47641
+1606297819053	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletZuWUg"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606297820793	Marionette	INFO	Listening on port 36513
+1606297820903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606297843630	geckodriver	INFO	Listening on 127.0.0.1:36651
+1606297843640	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile90b4H6"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606297845392	Marionette	INFO	Listening on port 45645
+1606297845478	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606297918042	geckodriver	INFO	Listening on 127.0.0.1:40285
+1606297918049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGZd7BM"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606297919586	Marionette	INFO	Listening on port 39245
+1606297919688	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+1606298198000	geckodriver	INFO	Listening on 127.0.0.1:46803
+1606298198007	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilez2CWQz"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606298199636	Marionette	INFO	Listening on port 46181
+1606298199750	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606298278533	geckodriver	INFO	Listening on 127.0.0.1:55625
+1606298278540	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePrD5Im"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606298280299	Marionette	INFO	Listening on port 44573
+1606298280384	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606298428216	geckodriver	INFO	Listening on 127.0.0.1:57875
+1606298428222	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexntOZC"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606298429964	Marionette	INFO	Listening on port 39399
+1606298430085	Marionette	WARN	TLS certificate errors will be ignored for this session
 Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1606298570381	geckodriver	INFO	Listening on 127.0.0.1:35953
+1606298570395	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKqkc88"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606298572091	Marionette	INFO	Listening on port 36055
+1606298572119	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606298592415	geckodriver	INFO	Listening on 127.0.0.1:46969
+1606298592420	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehmTw1Z"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606298594258	Marionette	INFO	Listening on port 34473
+1606298594352	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606298605982	Marionette	INFO	Stopped listening on port 34473
+1606298644327	geckodriver	INFO	Listening on 127.0.0.1:49515
+1606298644337	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefVQTdy"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606298646394	Marionette	INFO	Listening on port 32801
+1606298646483	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606298758011	geckodriver	INFO	Listening on 127.0.0.1:60583
+1606298758022	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHnFPQX"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606298759780	Marionette	INFO	Listening on port 42899
+1606298759855	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606298828156	geckodriver	INFO	Listening on 127.0.0.1:45975
+1606298828162	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilef81nwg"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606298829888	Marionette	INFO	Listening on port 37565
+1606298830010	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1606298896134	geckodriver	INFO	Listening on 127.0.0.1:36891
+1606298896140	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEcEgkE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606298897969	Marionette	INFO	Listening on port 37205
+1606298898063	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1606299032379	geckodriver	INFO	Listening on 127.0.0.1:32831
+1606299032389	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiMMs9B"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606299034320	Marionette	INFO	Listening on port 33667
+1606299034428	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606299104780	geckodriver	INFO	Listening on 127.0.0.1:37947
+1606299104789	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewc0LFF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606299106742	Marionette	INFO	Listening on port 33609
+1606299106829	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606299110864	Marionette	INFO	Stopped listening on port 33667
+1606299116068	Marionette	INFO	Stopped listening on port 37307
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1606299237657	geckodriver	INFO	Listening on 127.0.0.1:36059
+1606299237663	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIjOGG7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606299239593	Marionette	INFO	Listening on port 38399
+1606299239717	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1606299299432	geckodriver	INFO	Listening on 127.0.0.1:54765
+1606299299442	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile54M7Tr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606299301400	Marionette	INFO	Listening on port 41569
+1606299301479	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606299333169	Marionette	INFO	Stopped listening on port 41569
+1606299339484	geckodriver	INFO	Listening on 127.0.0.1:49311
+1606299339494	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileW2lSti"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606299341421	Marionette	INFO	Listening on port 40609
+1606299341541	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606299469153	geckodriver	INFO	Listening on 127.0.0.1:42977
+1606299469163	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXCfLe0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606299471138	Marionette	INFO	Listening on port 45657
+1606299471202	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606299475099	Marionette	INFO	Stopped listening on port 40609
+JavaScript error: https://ebok.tauron.pl/js/ebok/dialog-client-list.js, line 44: TypeError: jQuery(...).dialog is not a function
+1606300443112	Marionette	INFO	Stopped listening on port 45657
+>>>>>>> c75c7bf3e07d053d88cfaa0e241f88480f7d71e2
