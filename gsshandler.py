@@ -4,7 +4,7 @@ import confighandler
 
 def get_spreadsheet(subsheet):
     creds = ServiceAccountCredentials.from_json_keyfile_name(confighandler.get_google_key(),
-    														 confighandler.get_google_scope())
+    							 							confighandler.get_google_scope())
     client = gspread.authorize(creds)
 
     sheet = client.open(

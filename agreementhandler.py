@@ -1,8 +1,8 @@
 import os
-import pandas as pd
 from pathlib import Path
 from shutil import copyfile
 import fileinput
+import pandas as pd
 import confighandler
 import gsshandler
 
@@ -37,7 +37,7 @@ def build_details_dict(tennant, landlord, apartment, dfrom, dto, rent):
     return details
 
 def get_data(tid, lid, aid, dfrom, dto, rent):
-    
+
     apartments = pd.DataFrame(gsshandler.get_spreadsheet('apartments').get_all_records())
     tennants = pd.DataFrame(gsshandler.get_spreadsheet('tennants').get_all_records())
     landlords = pd.DataFrame(gsshandler.get_spreadsheet('landlords').get_all_records())
@@ -47,9 +47,9 @@ def get_data(tid, lid, aid, dfrom, dto, rent):
     print(landlords)
 
     details = build_details_dict(tennants.iloc[int(tid)],
-                               landlords.iloc[int(lid)],
-                               apartments[apartments['ID mieszkania'] == int(aid)].iloc[0],
-                               dfrom, dto, rent)
+                                 landlords.iloc[int(lid)],
+                                 apartments[apartments['ID mieszkania'] == int(aid)].iloc[0],
+                                 dfrom, dto, rent)
 
     return details
 

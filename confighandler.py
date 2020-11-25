@@ -55,3 +55,4 @@ def get_pushes(aid):
 
 def get_internet_cost(aid):
     return config_parser.get('internet', 'apartment'+aid)
+    

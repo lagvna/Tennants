@@ -1,17 +1,12 @@
 import os
-import time
 from datetime import date, datetime, timedelta
-from dateutil.relativedelta import relativedelta
 import re
-from pathlib import Path
-from shutil import copyfile
-import fileinput
+from dateutil.relativedelta import relativedelta
 import pandas as pd
+from bs4 import BeautifulSoup
 import confighandler
 import gsshandler
 from costscraper import CostScraper
-from twill.commands import *
-from bs4 import BeautifulSoup
 
 class BillsHandler(CostScraper):
 
@@ -38,9 +33,8 @@ class BillsHandler(CostScraper):
                          how='left', on='grouper')
         bills = bills.rename(columns={'data_x':'Data', 'zimna':'Woda zimna', 'ciepla':'Woda ciepła',
                                       'kwota_y':'Energia elektryczna', 'kwota_x':'Gaz'})
-        
+
         bills['Internet'] = confighandler.get_internet_cost(self.aid)
-        
         bills['Internet'] = pd.to_numeric(bills['Internet'])
         bills.drop(['data', 'grouper', 'data_y'], inplace=True, axis=1)
         bills.fillna(value=0, inplace=True)
@@ -124,13 +118,15 @@ class BillsHandler(CostScraper):
         tmp = date.today() + relativedelta(years=1)
 
         electricity = pd.read_csv(confighandler.get_folder('download_dir')
-                                  +'2000-01-01_'+str(tmp)+'_export.csv', 
+                                  +'2000-01-01_'+str(tmp)+'_export.csv',
                                   encoding='latin1', sep=';')
 
         electricity.columns = ['SYGNATURA', 'NAZWA DOKUMENTU', 'DATA WYSTAWIENIA',
-                               'DODATKOWE INFORMACJE', 'kwota', 'data', 'KWOTA DO ZAPLATY', 'ZAPLACONA']
-        electricity.drop(['SYGNATURA', 'NAZWA DOKUMENTU', 'DATA WYSTAWIENIA', 'DODATKOWE INFORMACJE',
-                          'KWOTA DO ZAPLATY', 'ZAPLACONA'], axis=1, inplace=True)
+                               'DODATKOWE INFORMACJE', 'kwota', 'data',
+                               'KWOTA DO ZAPLATY', 'ZAPLACONA']
+        electricity.drop(['SYGNATURA', 'NAZWA DOKUMENTU', 'DATA WYSTAWIENIA',
+                          'DODATKOWE INFORMACJE', 'KWOTA DO ZAPLATY',
+                          'ZAPLACONA'], axis=1, inplace=True)
 
         electricity['data'] = pd.to_datetime(electricity['data'], format='%d.%m.%Y')
         electricity['kwota'] = electricity['kwota'].str.replace(',', '.')
@@ -143,3 +139,4 @@ class BillsHandler(CostScraper):
         #os.remove(confighandler.get_folder('download_dir')+'2000-01-01_'+str(tmp)+'_export.csv')
 
         return electricity
+        

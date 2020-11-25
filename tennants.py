@@ -1,12 +1,7 @@
 #   Copyright (c) Jarosław Mirek
-import os
 import sys
 import logging
-import fileinput
-import numpy as np
 from pathlib import Path
-from shutil import copyfile
-import fileinput
 import click
 import pandas as pd
 import confighandler

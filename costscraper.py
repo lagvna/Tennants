@@ -1,8 +1,4 @@
-import os
 import time
-from datetime import date, datetime, timedelta
-from dateutil.relativedelta import relativedelta
-import re
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -11,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException
-from twill.commands import *
+from twill.commands import go, fv, submit, save_html
 import confighandler
 
 class CostScraper(object):
@@ -24,11 +20,11 @@ class CostScraper(object):
         # run browser silently
         self.options = Options()
         self.options.headless = True
-        self.options.add_argument("--start-maximized");
+        self.options.add_argument("--start-maximized")
         self.options.add_experimental_option("prefs", {
             "download.default_directory": download_dir,
             "download.prompt_for_download": False,
-        })        
+        })
 
     def _get_page_element(self, driver, wait, how, descriptor):
         retries = 0
@@ -92,7 +88,7 @@ class CostScraper(object):
                                "div[1]/div[1]/div[2]/div/div[3]/ul/" \
                                "li[1]/a").click()
         print("Reached bills history")
-        
+
         self._get_page_element(driver, wait, 'name', "dataOd")
         from_date = driver.find_element_by_name('dataOd')
         from_date.clear()
@@ -129,10 +125,11 @@ class CostScraper(object):
                                '/div[2]/div/div[1]/div/form/div/div/div/'\
                                'label[1]/input').click()
 
-        login = driver.find_element_by_xpath('/html/body/div[1]/div/div/div[4]/div/div/div[2]/div/' \
-                                             'div[1]/div/form/div/div/div/label[1]/input')
-        password = driver.find_element_by_xpath('/html/body/div[1]/div/div/div[4]/div/div/div[2]/div/' \
-                                                'div[1]/div/form/div/div/div/label[2]/div[2]/input')
+        login = driver.find_element_by_xpath('/html/body/div[1]/div/div/div[4]/div/div/div[2]/' \
+                                             'div/div[1]/div/form/div/div/div/label[1]/input')
+        password = driver.find_element_by_xpath('/html/body/div[1]/div/div/div[4]/div/div/div[2]/' \
+                                                'div/div[1]/div/form/div/div/div/label[2]/div[2]/' \
+                                                'input')
 
         login.send_keys(confighandler.get_pgnig_login())
         password.send_keys(confighandler.get_pgnig_password())
@@ -142,15 +139,15 @@ class CostScraper(object):
         print('Logged in successfully')
 
         self._get_page_element(driver, wait, 'xpath', '/html/body/div[1]/div/div/span/div[1]' \
-                               '/div/div/button/i').click() 
+                               '/div/div/button/i').click()
         print('Video dismissed')
 
-        self._get_page_element(driver, wait, 'partial_link_text', 'Zobacz faktury').click() 
+        self._get_page_element(driver, wait, 'partial_link_text', 'Zobacz faktury').click()
         print('Reached bills and payments')
 
         self._get_page_element(driver, wait, 'xpath', '/html/body/div[1]/div/div/div[4]/div' \
                                '/div[1]/div[3]/div/div/div[1]/div[1]/div').click()
-        
+
         element = driver.find_element_by_css_selector('.animationIn .css-1wa3eu0-placeholder')
         time.sleep(1)
         element.click()
@@ -161,8 +158,8 @@ class CostScraper(object):
 
         time.sleep(2)
 
-        with open(confighandler.get_folder('download_dir') + '/pgnig.html', 'w') as f:
-            f.write(driver.page_source)
+        with open(confighandler.get_folder('download_dir') + '/pgnig.html', 'w') as file:
+            file.write(driver.page_source)
 
         driver.quit()
 
@@ -171,7 +168,7 @@ class CostScraper(object):
 
         actions = ActionChains(driver)
 
-        for i in range(pushes):
+        for times in range(pushes):
             actions.send_keys(Keys.DOWN)
             actions.perform()
 
