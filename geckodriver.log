@@ -2135,3 +2135,12 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1606155591768	Marionette	INFO	Listening on port 42123
 1606155591889	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606155606846	Marionette	INFO	Stopped listening on port 42123
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
