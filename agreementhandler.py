@@ -1,5 +1,6 @@
 import os
 import logging
+logger = logging.getLogger(__name__)
 from pathlib import Path
 from shutil import copyfile
 import fileinput
@@ -43,10 +44,6 @@ def get_data(tid, lid, aid, dfrom, dto, rent):
     tennants = pd.DataFrame(gsshandler.get_spreadsheet('tennants').get_all_records())
     landlords = pd.DataFrame(gsshandler.get_spreadsheet('landlords').get_all_records())
 
-    print(apartments)
-    print(tennants)
-    print(landlords)
-
     details = build_details_dict(tennants.iloc[int(tid)],
                                  landlords.iloc[int(lid)],
                                  apartments[apartments['ID mieszkania'] == int(aid)].iloc[0],
@@ -75,4 +72,4 @@ def prepare_agreement(tennant, landlord, apartment, dfrom, dto, rent):
     # close file and compile pdf
     fileinput.close()
     os.system("pdflatex -output-directory="+path+" "+filepath)
-    logging.info("Lease agreement generated under "+path+"/")
+    logger.info("Lease agreement generated under "+path+"/")

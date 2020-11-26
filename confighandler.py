@@ -53,6 +53,9 @@ def get_pgnig_password():
 def get_pushes(aid):
     return config_parser.get('pushes', 'apartment'+aid)
 
+def get_tauron_pushes():
+    return config_parser.get('pushes', 'tauron')
+
 def get_internet_cost(aid):
     return config_parser.get('internet', 'apartment'+aid)
     
