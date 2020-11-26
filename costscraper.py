@@ -1,4 +1,6 @@
 import os
+import logging
+logger = logging.getLogger(__name__)
 import time
 import glob
 from selenium import webdriver
@@ -21,7 +23,7 @@ class CostScraper(object):
         self.download_dir = confighandler.get_folder('download_dir')
         # run browser silently
         self.options = Options()
-        self.options.headless = True
+        #self.options.headless = True
         self.options.add_argument("--start-maximized")
         self.options.add_experimental_option("prefs", {
             "download.default_directory": self.download_dir,
@@ -29,6 +31,18 @@ class CostScraper(object):
         })
 
     def _get_page_element(self, driver, wait, how, descriptor):
+        '''
+        Searches the page for an element with provided string 
+        either by XPATH, NAME or PARTIAL LINK TEXT
+
+        Args:
+            driver: webdriver for manipulating web pages
+            wait: wait object, allowing to wait for certain elements
+            how: method of searching
+            descriptor: string representation of searched element
+
+        '''
+
         retries = 0
         while retries < 5:
             try:
@@ -43,7 +57,7 @@ class CostScraper(object):
             except TimeoutException:
                 driver.refresh()
                 retries += 1
-                print(f"Could not reach page, retrying [{retries}]")
+                logger.error(f"Could not reach page, retrying [{retries}]")
 
     def scrape_smpiast(self):
         files = []
@@ -70,11 +84,11 @@ class CostScraper(object):
         return files
 
     def scrape_tauron(self):
-        print('Scraping TAURON...')
+        logger.info('Scraping TAURON...')
         driver = webdriver.Chrome(chrome_options=self.options)
         wait = WebDriverWait(driver, 15)
+        # login to tauron web page
         driver.get(confighandler.get_tauron_url(self.aid))
-
         username = driver.find_element_by_id("username1")
         username.clear()
         username.send_keys(confighandler.get_tauron_login(self.aid))
@@ -83,19 +97,21 @@ class CostScraper(object):
         password.send_keys(confighandler.get_tauron_password(self.aid))
 
         driver.find_element_by_xpath("//a[@title='Zaloguj się']").click()
-        print('Logged in successfully')
+        logger.info('Logged in successfully')
 
+        # go through a number of pages, to reach bills history
         self._get_page_element(driver, wait, 'xpath', "/html/body/main/div[2]/div/div/" \
                           "div[2]/div[1]/div[1]/div[3]/div" \
                           "[2]/a").click()
-        print("Reached bills and payments")
+        logger.info("Reached bills and payments")
 
 
         self._get_page_element(driver, wait, 'xpath', "/html/body/main/div[2]/div/div/div[2]/" \
                                "div[1]/div[1]/div[2]/div/div[3]/ul/" \
                                "li[1]/a").click()
-        print("Reached bills history")
+        logger.info("Reached bills history")
 
+        # specify the dates range of bills
         self._get_page_element(driver, wait, 'name', "dataOd")
         from_date = driver.find_element_by_name('dataOd')
         from_date.clear()
@@ -104,33 +120,36 @@ class CostScraper(object):
         to_date = driver.find_element_by_name('dataDo')
         to_date.clear()
         to_date.send_keys('2030-01-01')
-        time.sleep(2)
+        time.sleep(5)
+        # since it is a datepicker element, we confirm choice by hitting enter via keyboard twice
         to_date.send_keys(u'\ue007')
         to_date.send_keys(u'\ue007')
-        #to_date.send_keys(u'\ue007')
 
+        #search for link to download bills CSV file
         self._get_page_element(driver, wait, 'xpath', '//h2[contains(text(),' \
                                ' "Faktury za okres 2000-01-01")]').click()
         time.sleep(2)
-        print("Filtered data")
+        logger.info("Filtered data")
 
         self._get_page_element(driver, wait, 'partial_link_text', 'Pobierz plik CSV').click()
         time.sleep(2)
-        print("File saved successfully")
+        logger.info("File saved successfully")
         driver.quit()
-
+        #save file for further processing
         for file in os.listdir(self.download_dir):
             if file.endswith(".csv"):
                 return self.download_dir + str(file)
 
 
     def scrape_pgnig(self):
-        print('Scraping PGNiG...')
+        logger.info('Scraping PGNiG...')
+        #set options to reliably run chrome in headless mode
         driver = webdriver.Chrome(chrome_options=self.options)
         driver.set_window_size(1920, 1080)
         wait = WebDriverWait(driver, 15)
         driver.get(confighandler.get_pgnig_url())
 
+        #login to PGNiG
         self._get_page_element(driver, wait, 'xpath', '/html/body/div[1]/div/div/div[4]/div/div'\
                                '/div[2]/div/div[1]/div/form/div/div/div/'\
                                'label[1]/input').click()
@@ -146,28 +165,30 @@ class CostScraper(object):
 
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[4]/div/div/div[2]/div/div[1]' \
                                           '/div/form/div/div/div/button').click()
-        print('Logged in successfully')
-
+        logger.info('Logged in successfully')
+        #dismiss a youtube video popping out after logging in
         self._get_page_element(driver, wait, 'xpath', '/html/body/div[1]/div/div/span/div[1]' \
                                '/div/div/button/i').click()
-        print('Video dismissed')
+        logger.info('Video dismissed')
 
+        # get through a numer of pages to reach bills history
         self._get_page_element(driver, wait, 'partial_link_text', 'Zobacz faktury').click()
-        print('Reached bills and payments')
+        logger.info('Reached bills and payments')
 
         self._get_page_element(driver, wait, 'xpath', '/html/body/div[1]/div/div/div[4]/div' \
                                '/div[1]/div[3]/div/div/div[1]/div[1]/div').click()
 
+        # open a dropdown menu and then push keyboard arrows a numer of times 
+        # to pick the desided apartment
         element = driver.find_element_by_css_selector('.animationIn .css-1wa3eu0-placeholder')
         time.sleep(1)
         element.click()
-
         self._push_number_of_times(driver)
-
-        print('Filtered data')
+        logger.info('Filtered data')
 
         time.sleep(2)
 
+        #save file for further processing
         file = confighandler.get_folder('download_dir') + 'pgnig.html'
         with open(file, 'w') as f:
             f.write(driver.page_source)
@@ -175,6 +196,19 @@ class CostScraper(object):
         driver.quit()
 
         return file
+
+    # def _dismiss_popup(self, driver):
+    #     pushes = int(confighandler.get_tauron_pushes())
+
+    #     actions = ActionChains(driver)
+    #     time.sleep(5)
+    #     for times in range(pushes):
+    #         actions.send_keys(Keys.TAB)
+    #         time.sleep(1)
+    #         actions.perform()
+
+    #     actions.send_keys(Keys.ENTER)
+    #     actions.perform()
 
     def _push_number_of_times(self, driver):
         pushes = int(confighandler.get_pushes(self.aid))

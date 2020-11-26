@@ -1,8 +1,0 @@
-README.md
-setup.py
-Tennants.egg-info/PKG-INFO
-Tennants.egg-info/SOURCES.txt
-Tennants.egg-info/dependency_links.txt
-Tennants.egg-info/entry_points.txt
-Tennants.egg-info/requires.txt
-Tennants.egg-info/top_level.txt

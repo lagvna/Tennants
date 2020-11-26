@@ -29,3 +29,9 @@ wheels/
 *.egg
 MANIFEST
 geckodriver.log
+
+*.tar.gz
+*.log
+*.csv
+*.csv#
+
