@@ -28,3 +28,9 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+*.tar.gz
+*.log
+*.csv
+*.csv#
+
