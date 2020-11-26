@@ -47,9 +47,13 @@ def generate_bills(aid, month, year):
     bills_handler = BillsHandler(aid, months, year)
     bills = bills_handler.calculate_bills()
 
-    path = confighandler.get_folder('bills')
+    print(bills)
+
+    path = str(confighandler.get_folder('bills'))
     Path(path).mkdir(parents=True, exist_ok=True)
     bills.to_csv(path + aid +'_'+ str(months) + '_' + year + '.csv')
+
+    logging.info('Bills saved under '+path + aid +'_'+ str(months) + '_' + year + '.csv')
 
 def send_bills():
     pass

@@ -1,4 +1,5 @@
 import os
+import logging
 from pathlib import Path
 from shutil import copyfile
 import fileinput
@@ -74,4 +75,4 @@ def prepare_agreement(tennant, landlord, apartment, dfrom, dto, rent):
     # close file and compile pdf
     fileinput.close()
     os.system("pdflatex -output-directory="+path+" "+filepath)
-    print("Lease agreement generated under "+path+"/")
+    logging.info("Lease agreement generated under "+path+"/")

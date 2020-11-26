@@ -1,4 +1,5 @@
 import os
+import logging
 import time
 import glob
 from selenium import webdriver
@@ -43,7 +44,7 @@ class CostScraper(object):
             except TimeoutException:
                 driver.refresh()
                 retries += 1
-                print(f"Could not reach page, retrying [{retries}]")
+                logging.warn(f"Could not reach page, retrying [{retries}]")
 
     def scrape_smpiast(self):
         files = []
@@ -70,7 +71,7 @@ class CostScraper(object):
         return files
 
     def scrape_tauron(self):
-        print('Scraping TAURON...')
+        logging.info('Scraping TAURON...')
         driver = webdriver.Chrome(chrome_options=self.options)
         wait = WebDriverWait(driver, 15)
         driver.get(confighandler.get_tauron_url(self.aid))
@@ -83,18 +84,18 @@ class CostScraper(object):
         password.send_keys(confighandler.get_tauron_password(self.aid))
 
         driver.find_element_by_xpath("//a[@title='Zaloguj się']").click()
-        print('Logged in successfully')
+        logging.info('Logged in successfully')
 
         self._get_page_element(driver, wait, 'xpath', "/html/body/main/div[2]/div/div/" \
                           "div[2]/div[1]/div[1]/div[3]/div" \
                           "[2]/a").click()
-        print("Reached bills and payments")
+        logging.info("Reached bills and payments")
 
 
         self._get_page_element(driver, wait, 'xpath', "/html/body/main/div[2]/div/div/div[2]/" \
                                "div[1]/div[1]/div[2]/div/div[3]/ul/" \
                                "li[1]/a").click()
-        print("Reached bills history")
+        logging.info("Reached bills history")
 
         self._get_page_element(driver, wait, 'name', "dataOd")
         from_date = driver.find_element_by_name('dataOd')
@@ -112,11 +113,11 @@ class CostScraper(object):
         self._get_page_element(driver, wait, 'xpath', '//h2[contains(text(),' \
                                ' "Faktury za okres 2000-01-01")]').click()
         time.sleep(2)
-        print("Filtered data")
+        logging.info("Filtered data")
 
         self._get_page_element(driver, wait, 'partial_link_text', 'Pobierz plik CSV').click()
         time.sleep(2)
-        print("File saved successfully")
+        logging.info("File saved successfully")
         driver.quit()
 
         for file in os.listdir(self.download_dir):
@@ -125,7 +126,7 @@ class CostScraper(object):
 
 
     def scrape_pgnig(self):
-        print('Scraping PGNiG...')
+        logging.info('Scraping PGNiG...')
         driver = webdriver.Chrome(chrome_options=self.options)
         driver.set_window_size(1920, 1080)
         wait = WebDriverWait(driver, 15)
@@ -146,14 +147,14 @@ class CostScraper(object):
 
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[4]/div/div/div[2]/div/div[1]' \
                                           '/div/form/div/div/div/button').click()
-        print('Logged in successfully')
+        logging.info('Logged in successfully')
 
         self._get_page_element(driver, wait, 'xpath', '/html/body/div[1]/div/div/span/div[1]' \
                                '/div/div/button/i').click()
-        print('Video dismissed')
+        logging.info('Video dismissed')
 
         self._get_page_element(driver, wait, 'partial_link_text', 'Zobacz faktury').click()
-        print('Reached bills and payments')
+        logging.info('Reached bills and payments')
 
         self._get_page_element(driver, wait, 'xpath', '/html/body/div[1]/div/div/div[4]/div' \
                                '/div[1]/div[3]/div/div/div[1]/div[1]/div').click()
@@ -164,7 +165,7 @@ class CostScraper(object):
 
         self._push_number_of_times(driver)
 
-        print('Filtered data')
+        logging.info('Filtered data')
 
         time.sleep(2)
 
