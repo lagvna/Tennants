@@ -8,11 +8,10 @@ from logging import StreamHandler
 from pathlib import Path
 import click
 import pandas as pd
-import confighandler
-import gsshandler
-import agreementhandler
-from billshandler import BillsHandler
-
+from Tennants.confighandler import get_folder
+from Tennants.gsshandler import get_spreadsheet
+from Tennants import agreementhandler
+from Tennants.billshandler import BillsHandler
 
 root_logger = logging.getLogger()
 
@@ -41,19 +40,19 @@ def cli(quiet):
 @cli.command('lsl', help='List all landlords')
 def list_all_landlords():
     """ List all landlords """
-    data = pd.DataFrame(gsshandler.get_spreadsheet('landlords').get_all_records())
+    data = pd.DataFrame(get_spreadsheet('landlords').get_all_records())
     print(data)
 
 @cli.command('lst', help='List all tennants')
 def list_all_tennants():
     """ List all tennants """
-    data = pd.DataFrame(gsshandler.get_spreadsheet('tennants').get_all_records())
+    data = pd.DataFrame(get_spreadsheet('tennants').get_all_records())
     print(data)
 
 @cli.command('lsa', help='List all apartments')
 def list_all_apartments():
     """ List all apartments """
-    data = pd.DataFrame(gsshandler.get_spreadsheet('apartments').get_all_records())
+    data = pd.DataFrame(get_spreadsheet('apartments').get_all_records())
     print(data)
 
 @cli.command('genbil', help='Generate bills for the current period for a particular tennant')
@@ -69,7 +68,7 @@ def generate_bills(aid, month, year):
 
     print(bills)
 
-    path = str(confighandler.get_folder('bills'))
+    path = str(get_folder('bills'))
     Path(path).mkdir(parents=True, exist_ok=True)
     bills.to_csv(path + aid +'_'+ str(months) + '_' + year + '.csv')
 
